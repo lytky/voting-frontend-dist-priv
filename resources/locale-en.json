@@ -1,0 +1,103 @@
+{
+  "index": {
+    "menu": {
+      "title": "Elections",
+      "sign_up": "Sign Up",
+      "elections": "Vote",
+      "profile": "Eligibility",
+      "sign_out": "Sign Out"
+    }
+  },
+
+  "pages": {
+    "main": {
+      "page_title": "Administration Elections",
+      "you_may_check_eligibility":
+        "You may check your eligibility for the elections by requesting a sign in link. Link will be sent to the email address you have submitted to the Helsinki University Student Registry by DD.MM.2015.",
+      "you_may_request_session_link":
+        "Request a sign in link to the email address you have submitted to the Helsinki University Student Registry by DD.MM.2015",
+      "signin_will_commence_at":
+        "The service is available as follows:",
+      "eligibility_check": "Eligibility for the elections",
+      "voting": "Voting",
+
+      "button_caption_eligibility": "Check Eligibility",
+      "button_caption_vote": "To the Voting!"
+    },
+
+    "sign_up": {
+      "page_title": "Sign Up",
+      "ingress":
+        "Give the same e-mail address you have in University’s student registry, and we will send you a registration link.",
+     "password_instructions":
+        "Password can be delivered only to the email address that you have in the student registry. You can check which email address you have used on the contact details page in <a href='https://weboodi.helsinki.fi'>WebOodi</a>.",
+      "spam_instructions":
+        "In case you didn't receive the link, please also check your spam folder.",
+      "in_case_of_fire":
+        "If everything else fails, please contact the election staff of the Student Union <a href='mailto:vaalit@hyy.fi'>vaalit@hyy.fi</a> or +358 50 551 6147.",
+
+      "attention": "Please Notice:",
+      "election_dates_explained":
+        "Voting is between dd DD.MM.2015 at HH:00 - HH:00 and dd DD.MM.2015 at HH:00 - HH:00.",
+      "staff_eligibility_note":
+        "Permanent staff of the university are not eligible to vote student members in the administration elections.",
+      "private_browsing_note":
+        "Ensure that you do not have Private Browsing Mode enabled when you open the sign in link.",
+
+      "input_caption_email": "Email",
+      "button_caption_submit": "Send me the link",
+      "button_caption_submitting": "Sending ..",
+
+      "link_has_been_sent":
+        "Link for sign in has been sent!",
+      "pls_check_email":
+        "Please follow the instructions in your email and sign in.",
+      "something_went_wrong": {
+        "title": "Something went wrong!",
+        "detail": "We were unable to send you the link.",
+        "if_happens_again":
+          "If the problem happens again, please contact the election staff of the Student Union vaalit@hyy.fi +358 50 551 6147.",
+        "pls_explain":
+          "Please let us know the technical error message:"
+      }
+    },
+
+    "sign_out": {
+      "page_title": "Signed Out",
+      "ingress": "You may close the browser window."
+    },
+
+    "profile": {
+      "page_title": "Personal Information",
+      "you_are_eligible":
+        "You are eligible for the elections of your faculty and department.",
+      "in_case_of_problem":
+        "If there is a problem with your information, please contact the Student Union.",
+      "voter": {
+        "name": "Name",
+        "email": "Email",
+        "phone": "Phone",
+        "faculty": "Faculty",
+        "department": "Department"
+      }
+    }
+  },
+
+  "partials": {
+    "info": {
+      "main_title": "University of Helsinki Administration Elections",
+      "ingress":
+        "Elections of the student members to the College, the Department Council and the Faculty Council.",
+      "signin_is_available_at":
+        "Signing in is availailable as follows",
+      "election_dates_explained":
+        "between dd DD.MM.2015 at HH:00 and HH:00 ja dd DD.MM.2015 at HH:00 - HH:00. Voting will end at dd DD.MM.2015 klo HH:05 for those who signed in before dd DD.MM.2015 klo HH:00."
+    },
+
+    "contact": {
+      "more_info": "More information",
+      "hyy_ae_link_caption": "Student Union's info page",
+      "in_case_of_fire": "In case of a problem, please contact"
+    }
+  }
+}

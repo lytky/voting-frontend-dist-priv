@@ -1,0 +1,104 @@
+{
+  "index": {
+    "menu": {
+      "title": "Hallintovaalit",
+      "sign_up": "Kirjaudu",
+      "elections": "Äänestä",
+      "profile": "Omat Tiedot",
+      "sign_out": "Poistu"
+    }
+  },
+
+  "pages": {
+    "main": {
+      "page_title": "Hallintovaalit",
+      "you_may_check_eligibility":
+        "Voit tarkastaa vaalikelpoisuutesi tilaamalla sisäänkirjautumislinkin sähköpostiosoitteeseen, jonka olet ilmoittanut DD.MM.2015 mennessä Helsingin yliopiston opiskelijarekisteriin.",
+      "you_may_request_session_link":
+        "Tilaa sisäänkirjautumislinkki sähköpostiosoitteeseen, jonka olet ilmoittanut DD.MM.2015 mennessä Helsingin yliopiston opiskelijarekisteriin.",
+      "signin_will_commence_at":
+        "Palvelu on avoinna seuraavista päivämääristä alkaen:",
+      "eligibility_check": "Vaalikelpoisuuden tarkastaminen",
+      "voting": "Äänestäminen",
+
+      "button_caption_eligibility": "Tarkasta vaalikelpoisuus",
+      "button_caption_vote": "Äänestämään!"
+    },
+
+    "sign_up": {
+      "page_title": "Kirjaudu sisään",
+      "ingress":
+        "Anna opiskelijarekisteriin tallentamasi sähköpostiosoite, niin sinulle lähetetään sisäänkirjautumislinkki.",
+      "password_instructions":
+        "Salasana lähetetään ainoastaan ennalta tunnettuun sähköpostiosoitteeseen. Tarkista opiskelijarekisteriin antamasi sähköpostiosoitteesi <a href='https://weboodi.helsinki.fi'>kirjautumalla WebOodiin</a>.",
+      "spam_instructions":
+        "Tarkista myös sähköpostisi roskapostikansio, mikäli et saa sisäänkirjautumislinkkiä.",
+      "in_case_of_fire":
+        "Viime kädessä ota yhteys HYYn vaalityöntekijään <a href='mailto:vaalit@hyy.fi'>vaalit@hyy.fi</a> tai +358 50 551 6147.",
+
+      "attention": "Huom!",
+      "election_dates_explained":
+        "Äänestys on auki ti 3.11.2015 klo 9:00 - 20:00 ja ke 4.11.2015 klo 9:00 - 17:00 välisenä aikana.",
+      "staff_eligibility_note":
+        "Vakituiseen henkilökuntaan kuuluvilla ei ole äänioikeutta hallinnon opiskelijaedustajien vaalissa.",
+      "private_browsing_note":
+        "Varmista, ettei selaimesi ole Private Browsing tilassa, kun avaat linkin.",
+
+      "input_caption_email": "Sähköposti",
+      "button_caption_submit": "Lähetä sisäänkirjautumislinkki",
+      "button_caption_submitting": "Lähetetään ..",
+
+      "link_has_been_sent":
+        "Sisäänkirjautumislinkki on lähetetty antamaasi osoitteeseen!",
+      "pls_check_email":
+        "Kirjaudu sisään noudattamalla sähköpostiosoiteeseesi lähetettyjä ohjeita.",
+      "something_went_wrong": {
+        "title": "Jotain meni pieleen!",
+        "detail": "Linkkiä ei voitu lähettää.",
+        "if_happens_again":
+          "Jos ongelma toistuu, ota yhteys HYYn vaalityöntekijään HYYn vaalityöntekijään vaalit@hyy.fi +358 50 551 6147.",
+        "pls_explain":
+          "Kerro vaalityöntekijälle virheen tekninen syy:"
+      }
+    },
+
+    "sign_out": {
+      "page_title": "Olet kirjautunut ulos",
+      "ingress": "Voit sulkea selainikkunan."
+    },
+
+    "profile": {
+      "page_title": "Omat tiedot",
+      "you_are_eligible":
+        "Olet vaalikelpoinen oman laitoksesi ja tiedekunnan vaaleissa.",
+      "in_case_of_problem":
+        "Jos tiedoissa on epäselvyyksiä, ota yhteys ylioppilaskuntaan.",
+      "voter": {
+        "name": "Nimi",
+        "email": "Email",
+        "phone": "Puhelin",
+        "faculty": "Tiedekunta",
+        "department": "Laitos"
+      }
+    }
+
+  },
+
+  "partials": {
+    "info": {
+      "main_title": "Helsingin yliopiston hallintovaalit",
+      "ingress":
+        "Hallinnon opiskelijaedustajien vaalissa valitaan opiskelijaedustajat kollegioon, tiedekuntaneuvostoon ja laitosneuvostoon.",
+      "signin_is_available_at":
+        "Sisäänkirjautuminen järjestelmään onnistuu",
+      "election_dates_explained":
+        "dd DD.MM.2015 klo HH:00 - HH:00 ja dd DD.MM.2015 klo HH:00 - HH:00 välisenä aikana. Äänestäminen päättyy dd DD.MM.2015 klo HH:05 niiden osalta, jotka ehtivät kirjautua sisään ennen dd DD.MM.2015 klo HH:00."
+    },
+
+    "contact": {
+      "more_info": "Lisätietoa",
+      "hyy_ae_link_caption": "HYYn hallintovaalisivusto",
+      "in_case_of_fire": "Ongelmatilanteessa ota yhteys HYYn vaalityöntekijään"
+    }
+  }
+}
