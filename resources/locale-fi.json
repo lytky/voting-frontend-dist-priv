@@ -13,9 +13,9 @@
     "main": {
       "page_title": "Hallintovaalit",
       "you_may_check_eligibility":
-        "Voit tarkastaa vaalikelpoisuutesi tilaamalla sisäänkirjautumislinkin sähköpostiosoitteeseen, jonka olet ilmoittanut DD.MM.2015 mennessä Helsingin yliopiston opiskelijarekisteriin.",
+        "Voit tarkastaa vaalikelpoisuutesi tilaamalla sisäänkirjautumislinkin sähköpostiosoitteeseen, jonka olet ilmoittanut 15.9.2015 mennessä Helsingin yliopiston opiskelijarekisteriin.",
       "you_may_request_session_link":
-        "Tilaa sisäänkirjautumislinkki sähköpostiosoitteeseen, jonka olet ilmoittanut DD.MM.2015 mennessä Helsingin yliopiston opiskelijarekisteriin.",
+        "Tilaa sisäänkirjautumislinkki sähköpostiosoitteeseen, jonka olet ilmoittanut 15.9.2015 mennessä Helsingin yliopiston opiskelijarekisteriin.",
       "signin_will_commence_at":
         "Palvelu on avoinna seuraavista päivämääristä alkaen:",
       "eligibility_check": "Vaalikelpoisuuden tarkastaminen",
@@ -38,7 +38,7 @@
 
       "attention": "Huom!",
       "election_dates_explained":
-        "Äänestys on auki ti 3.11.2015 klo 9:00 - 20:00 ja ke 4.11.2015 klo 9:00 - 17:00 välisenä aikana.",
+        "Äänestys on auki ti 15.12.2015 klo 9:00 - 20:00 ja ke 16.12.2015 klo 9:00 - 17:00 välisenä aikana.",
       "staff_eligibility_note":
         "Vakituiseen henkilökuntaan kuuluvilla ei ole äänioikeutta hallinnon opiskelijaedustajien vaalissa.",
       "private_browsing_note":
@@ -92,7 +92,7 @@
       "signin_is_available_at":
         "Sisäänkirjautuminen järjestelmään onnistuu",
       "election_dates_explained":
-        "dd DD.MM.2015 klo HH:00 - HH:00 ja dd DD.MM.2015 klo HH:00 - HH:00 välisenä aikana. Äänestäminen päättyy dd DD.MM.2015 klo HH:05 niiden osalta, jotka ehtivät kirjautua sisään ennen dd DD.MM.2015 klo HH:00."
+        "ti 15.12.2015 klo 9:00 - 20:00 ja ke 16.12.2015 klo 9:00 - 17:00 välisenä aikana. Äänestäminen päättyy ke 16.12.2015 klo 17:05 niiden osalta, jotka ehtivät kirjautua sisään ennen ke 16.12.2015 klo 17:00."
     },
 
     "contact": {

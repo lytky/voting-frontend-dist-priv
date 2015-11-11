@@ -13,9 +13,9 @@
     "main": {
       "page_title": "Administration Elections",
       "you_may_check_eligibility":
-        "You may check your eligibility for the elections by requesting a sign in link. Link will be sent to the email address you have submitted to the Helsinki University Student Registry by DD.MM.2015.",
+        "You may check your eligibility for the elections by requesting a sign in link. Link will be sent to the email address you have submitted to the Helsinki University Student Registry by 15.9.2015.",
       "you_may_request_session_link":
-        "Request a sign in link to the email address you have submitted to the Helsinki University Student Registry by DD.MM.2015",
+        "Request a sign in link to the email address you have submitted to the Helsinki University Student Registry by 15.9.2015",
       "signin_will_commence_at":
         "The service is available as follows:",
       "eligibility_check": "Eligibility for the elections",
@@ -38,7 +38,7 @@
 
       "attention": "Please Notice:",
       "election_dates_explained":
-        "Voting is between dd DD.MM.2015 at HH:00 - HH:00 and dd DD.MM.2015 at HH:00 - HH:00.",
+        "Voting is between Tue 15.12.2015 at 9:00 - 20:00 and Wed 16.12.2015 at 9:00 - 17:00.",
       "staff_eligibility_note":
         "Permanent staff of the university are not eligible to vote student members in the administration elections.",
       "private_browsing_note":
@@ -91,7 +91,7 @@
       "signin_is_available_at":
         "Signing in is availailable as follows",
       "election_dates_explained":
-        "between dd DD.MM.2015 at HH:00 and HH:00 ja dd DD.MM.2015 at HH:00 - HH:00. Voting will end at dd DD.MM.2015 klo HH:05 for those who signed in before dd DD.MM.2015 klo HH:00."
+        "between Tue 15.12.2015 at 9:00 - 20:00 and Wed 16.12.2015 at 9:00 - 17:00. Voting will end at Wed 16.12.2015 at 17:05 for those who signed in before Wed 16.12.2015 by 17:00."
     },
 
     "contact": {

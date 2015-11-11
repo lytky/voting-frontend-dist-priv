@@ -1,3 +1,103 @@
 {
-  "HEADLINE": "Det fungerar!"
+  "index": {
+    "menu": {
+      "title": "Förvaltningsval",
+      "sign_up": "Logga in",
+      "elections": "Rösta",
+      "profile": "Egna uppgifter",
+      "sign_out": "Logga ut"
+    }
+  },
+
+  "pages": {
+    "main": {
+      "page_title": "Förvaltningsval",
+      "you_may_check_eligibility":
+        "Du kan kontrollera din valbarhet genom att beställa en inloggningslänk till den e-postadress som du har meddelat till studentregistret vid Helsingfors universitet före 15.09.2015.",
+      "you_may_request_session_link":
+        "Beställ en inloggningslänk till den e-postadress som du har meddelat till studentregistret vid Helsingfors universitet före 15.09.2015.",
+      "signin_will_commence_at":
+        "Tjänsten fungerar från och med följande datum:",
+      "eligibility_check": "Kontroll av valbarheten",
+      "voting": "Röstning",
+
+      "button_caption_eligibility": "Kontrollera valbarheten",
+      "button_caption_vote": "Rösta!"
+    },
+
+    "sign_up": {
+      "page_title": "Logga in",
+      "ingress":
+        "Ange den e-postadress som du har uppgett i studentregistret, så får du en inloggningslänk.",
+     "password_instructions":
+        "Lösenordet skickas bara till en e-postadress som är känd från tidigare. Kolla vilken e-postadress du har angett i studentregistret genom att logga in på <a href='https://weboodi.helsinki.fi'>WebOodi</a>.",
+      "spam_instructions":
+        "Glöm inte att kolla skräppostlådan i e-posten ifall du inte får någon inloggningslänk.",
+      "in_case_of_fire":
+        "I sista hand kan du kontakta HUS valarbetare, <a href='mailto:vaalit@hyy.fi'>vaalit@hyy.fi</a> eller per telefon +358 50 551 6147.",
+
+      "attention": "Obs!",
+      "election_dates_explained":
+        "Röstningen pågår ti 15.12.2015 kl. 9:00–20:00 och on 16.12.2015 kl. 9:00–17:00.",
+      "staff_eligibility_note":
+        "ersoner som hör till den ordinarie personalen har inte rösträtt vid valet av studentrepresentanter (Universitetets valinstruktion 10 §)",
+      "private_browsing_note":
+        "Kontrollera att din webbläsare inte är i Private Browsing-läge då du öppnar länken.",
+
+      "input_caption_email": "E-post",
+      "button_caption_submit": "Skicka inloggningslänk",
+      "button_caption_submitting": "Skickar ..",
+
+      "link_has_been_sent":
+        "En inloggningslänk har skickats till den adress du uppgav!",
+      "pls_check_email":
+        "Logga in genom att följa anvisningarna som skickats till din e-postadress.",
+      "something_went_wrong": {
+        "title": "Något gick fel!",
+        "detail": "Länken kunde inte skickas.",
+        "if_happens_again":
+          "Om problemet upprepas, kontakta HUS valarbetare, vaalit@hyy.fi eller +358 50 551 6147.",
+        "pls_explain":
+          "Förklara för valarbetaren vad som gick fel:"
+      }
+    },
+
+    "sign_out": {
+      "page_title": "Loggat ut.",
+      "ingress": "Du kan stänga webbläsarfönstret."
+    },
+
+    "profile": {
+      "page_title": "Egna uppgifter",
+      "you_are_eligible":
+        "Du är valbar i valet på din institution och fakultet (Studentkårens instruktion om val av studentrepresentanter i universitetsförvaltningen 5 §).",
+      "in_case_of_problem":
+        "Kontakta studentkåren ifall något är oklart med dessa uppgifter, vaalit@hyy.fi +358 50 551 6147.",
+      "voter": {
+        "name": "Namn",
+        "email": "E-post",
+        "phone": "Telefon",
+        "faculty": "Fakultet",
+        "department": "Institution"
+      }
+    }
+  },
+
+  "partials": {
+    "info": {
+      "main_title": "Förvaltningsvalet vid Helsingfors universitet",
+      "ingress":
+        "I valet av studentrepresentanter i förvaltningen väljs studentrepresentanterna i kollegiet, fakultetsrådet och institutionrådet.",
+      "signin_is_available_at":
+        "Du kan logga in i systemet under tiden",
+      "election_dates_explained":
+        "15.12.2015 kl. 9:00–20:00 och 16.12.2015 kl. 9:00–17:00. Röstningen upphör 16.12.2015 kl. 17:05 för dem som har hunnit logga in före 16.12.2015 kl. 17:00."
+    },
+
+    "contact": {
+      "more_info": "Mera information",
+      "hyy_ae_link_caption": "HUS webbsidor om förvaltningsvalet",
+      "in_case_of_fire": "Vid problem, kontakta HUS valarbetare."
+    }
+  }
 }
