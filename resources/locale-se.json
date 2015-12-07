@@ -25,6 +25,17 @@
       "button_caption_vote": "Rösta!"
     },
 
+    "sign_in": {
+      "loading": "Laddar",
+
+      "error": {
+        "title_invalid_key": "Länk kan inte användas",
+        "lead": "Inloggningslänk har utgått eller är ogiltig.",
+        "private_browsing_note": "Kontrollera att din webbläsare inte är i Private Browsing-läge.",
+        "request_new_link": "Skicka ny länk"
+      }
+    },
+
     "sign_up": {
       "page_title": "Logga in",
       "ingress":
@@ -52,13 +63,17 @@
         "En inloggningslänk har skickats till den adress du uppgav!",
       "pls_check_email":
         "Logga in genom att följa anvisningarna som skickats till din e-postadress.",
+
       "something_went_wrong": {
-        "title": "Något gick fel!",
         "detail": "Länken kunde inte skickas.",
         "if_happens_again":
           "Om problemet upprepas, kontakta HUS valarbetare, vaalit@hyy.fi eller +358 50 551 6147.",
         "pls_explain":
           "Förklara för valarbetaren vad som gick fel:"
+      },
+
+      "errors": {
+        "not_eligible_in_any_election": "Du har inte rösträtt vid någon av de nuvarande valet."
       }
     },
 
@@ -80,7 +95,69 @@
         "faculty": "Fakultet",
         "department": "Institution"
       }
+    },
+
+    "vote": {
+      "page_title": "Rösta",
+
+      "error": {
+        "something_went_wrong": "Oh noes :/",
+        "could_not_load_candidates": "Nedladdning av kandidat list gick fel.",
+        "request_a_new_link_and_try_again": "Skicka ny inloggningslänk och försök igen.",
+        "button_request_link": "Skicka ny länk"
+      },
+
+      "vote-ballot": {
+        "title": "Röstsedel",
+        "header-number": "Nummer",
+        "header-name": "Namn",
+        "ingress": "Välj kandidat från listan nedan.",
+        "about-to-change-existing-vote": "Du är på väg att ändra en tidigare gjuten röst. Förändring kommer att spelas in när du klickar på 'Rösta'.",
+        "button-submit-caption": "Rösta",
+        "submitting": "Röstar .."
+
+      },
+
+      "vote-has-been-cast": "Din röst har registrerats!",
+      "if-you-are-eligible-in-others": "Om du har rösträtt vid flera val,",
+      "choose-next-election": "välj nästa val",
+      "close-window-when-finished": "Stäng webbläsarfönstret när du är klar.",
+
+      "search": {
+        "title": "Sök en kandidat",
+        "candidate-name": "Kandidat namn",
+        "header-number": "Number",
+        "header-candidate": "Kandidat (personlig biträdande)"
+      }
+
+    },
+
+    "elections": {
+      "page_title": "Rösta",
+      "sign_in": "Logga In",
+      "request_link_please": "Du kan rösta genom att beställa en inloggningslänk till epost.",
+      "button_request_link": "Beställ länk",
+
+      "you_can_vote_in_the_following": "Du kan rösta i följande valen:",
+
+      "table_header": {
+        "election_name": "Val namn",
+        "status": "Röstat?"
+      },
+
+      "not_started": {
+        "voting_has_not_started_yet": "Röstning har inte ännu börjat."
+      },
+
+      "empty": {
+        "no_elections_available": "Du har inte rösträtt vid inget val."
+      }
     }
+
+  },
+
+  "common": {
+    "loading": "Laddar"
   },
 
   "partials": {

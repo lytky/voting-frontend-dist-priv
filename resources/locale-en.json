@@ -25,6 +25,17 @@
       "button_caption_vote": "To the Voting!"
     },
 
+    "sign_in": {
+      "loading": "Loading",
+
+      "error": {
+        "title_invalid_key": "Invalid Key Given",
+        "lead": "Your sign in link is not valid or has expired.",
+        "private_browsing_note": "Please check that your browser is not in Private Browsing Mode.",
+        "request_new_link": "Reqeust new link"
+      }
+    },
+
     "sign_up": {
       "page_title": "Sign Up",
       "ingress":
@@ -52,13 +63,17 @@
         "Link for sign in has been sent!",
       "pls_check_email":
         "Please follow the instructions in your email and sign in.",
+
       "something_went_wrong": {
-        "title": "Something went wrong!",
         "detail": "We were unable to send you the link.",
         "if_happens_again":
           "If the problem happens again, please contact the election staff of the Student Union vaalit@hyy.fi +358 50 551 6147.",
         "pls_explain":
           "Please let us know the technical error message:"
+      },
+
+      "errors": {
+        "not_eligible_in_any_election": "You are not eligible in any of the current elections."
       }
     },
 
@@ -70,7 +85,7 @@
     "profile": {
       "page_title": "Personal Information",
       "you_are_eligible":
-        "You are eligible for the elections of your faculty and department.",
+        "You are eligible in the elections of your faculty and department.",
       "in_case_of_problem":
         "If there is a problem with your information, please contact the Student Union.",
       "voter": {
@@ -80,7 +95,67 @@
         "faculty": "Faculty",
         "department": "Department"
       }
+    },
+
+    "vote": {
+      "page_title": "Vote",
+
+      "error": {
+        "something_went_wrong": "Something happened",
+        "could_not_load_candidates": "Candidates could not be loaded.",
+        "request_a_new_link_and_try_again": "Request a new sign in link and try again.",
+        "button_request_link": "Request link"
+      },
+
+      "vote-ballot": {
+        "title": "Vote ballot",
+        "header-number": "Number",
+        "header-name": "Name",
+        "ingress": "Choose candidate from the list below.",
+        "about-to-change-existing-vote": "You are about to change a previously cast vote. Change will be recorded after you click 'Vote'.",
+        "button-submit-caption": "Vote"
+      },
+
+      "vote-has-been-cast": "Your vote is now recorded!",
+      "if-you-are-eligible-in-others": "If you are eligible in multiple elections,",
+      "choose-next-election": "select next election",
+      "close-window-when-finished": "Close the browser window when you have finished.",
+
+      "search": {
+        "title": "Find a candidate",
+        "candidate-name": "Candidate name",
+        "header-number": "Nummer",
+        "header-candidate": "Candidate (personal vice member)"
+      }
+
+    },
+
+    "elections": {
+      "page_title": "Vote",
+      "sign_in": "Sign In",
+      "request_link_please": "You can vote after you have requested a sign in link to your email.",
+      "button_request_link": "Request link",
+
+      "you_can_vote_in_the_following": "You can vote in the following elections:",
+
+      "table_header": {
+        "election_name": "Election Name",
+        "status": "Already voted?"
+      },
+
+      "not_started": {
+        "voting_has_not_started_yet": "Voting has not started yet."
+      },
+
+      "empty": {
+        "no_elections_available": "You are not eligible to vote in any elections."
+      }
     }
+
+  },
+
+  "common": {
+    "loading": "Loading"
   },
 
   "partials": {

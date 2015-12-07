@@ -25,6 +25,17 @@
       "button_caption_vote": "Äänestämään!"
     },
 
+    "sign_in": {
+      "loading": "Ladataan",
+
+      "error": {
+        "title_invalid_key": "Avain ei kelpaa",
+        "lead": "Sisäänkirjautumislinkkisi on vanhentunut tai virheellinen.",
+        "private_browsing_note": "Tarkista myös, ettei selaimesi ole Private Browsing tilassa.",
+        "request_new_link": "Pyydä uusi linkki"
+      }
+    },
+
     "sign_up": {
       "page_title": "Kirjaudu sisään",
       "ingress":
@@ -52,13 +63,17 @@
         "Sisäänkirjautumislinkki on lähetetty antamaasi osoitteeseen!",
       "pls_check_email":
         "Kirjaudu sisään noudattamalla sähköpostiosoiteeseesi lähetettyjä ohjeita.",
+
       "something_went_wrong": {
-        "title": "Jotain meni pieleen!",
         "detail": "Linkkiä ei voitu lähettää.",
         "if_happens_again":
           "Jos ongelma toistuu, ota yhteys HYYn vaalityöntekijään HYYn vaalityöntekijään vaalit@hyy.fi +358 50 551 6147.",
         "pls_explain":
           "Kerro vaalityöntekijälle virheen tekninen syy:"
+      },
+
+      "errors": {
+        "not_eligible_in_any_election": "Sinulla ei ole äänioikeutta yhteenkään vaaliin."
       }
     },
 
@@ -70,7 +85,7 @@
     "profile": {
       "page_title": "Omat tiedot",
       "you_are_eligible":
-        "Olet vaalikelpoinen oman laitoksesi ja tiedekunnan vaaleissa.",
+        "Olet vaalikelpoinen oman laitoksesi ja tiedekunnan vaaleissa (Ylioppilaskunnan säännöt hallinnon opiskelijaedustajien vaalista 5 §).",
       "in_case_of_problem":
         "Jos tiedoissa on epäselvyyksiä, ota yhteys ylioppilaskuntaan.",
       "voter": {
@@ -80,8 +95,65 @@
         "faculty": "Tiedekunta",
         "department": "Laitos"
       }
+    },
+
+    "vote": {
+      "page_title": "Äänestä",
+
+      "error": {
+        "something_went_wrong": "Kävi hassusti :/",
+        "could_not_load_candidates": "Ehdokastietojen lataaminen epäonnistui.",
+        "request_a_new_link_and_try_again": "Pyydä uusi sisäänkirjautumislinkki ja yritä uudelleen.",
+        "button_request_link": "Pyydä linkki"
+      },
+
+      "vote-ballot": {
+        "title": "Äänestyslippu",
+        "header-number": "Numero",
+        "header-name": "Nimi",
+        "ingress": "Valitse ehdokas alla olevasta listasta.",
+        "about-to-change-existing-vote": "Olet muuttamassa aiemmin antamaasi ääntä. Muutos kirjataan vasta kun painat 'Äänestä'.",
+        "button-submit-caption": "Äänestä"
+      },
+
+      "vote-has-been-cast": "Äänesi on nyt kirjattu!",
+      "if-you-are-eligible-in-others": "Jos sinulla on äänioikeus useassa vaalissa,",
+      "choose-next-election": "valitse seuraava vaali",
+      "close-window-when-finished": "Sulje lopuksi selainikkuna.",
+
+      "search": {
+        "title": "Hae ehdokasta",
+        "candidate-name": "Ehdokasnimi",
+        "header-number": "Numero",
+        "header-candidate": "Ehdokas (henkilökohtainen varajäsen)"
+      }
+    },
+
+    "elections": {
+      "page_title": "Äänestä",
+      "sign_in": "Sisäänkirjaudu",
+      "request_link_please": "Pääset äänestämään sen jälkeen, kun olet pyytänyt sisäänkirjautumislinkin sähköpostiisi.",
+      "button_request_link": "Pyydä linkki",
+      "you_can_vote_in_the_following": "Voit äänestää seuraavissa vaaleissa:",
+
+      "table_header": {
+        "election_name": "Vaalin nimi",
+        "status": "Äänestetty"
+      },
+
+      "not_started": {
+        "voting_has_not_started_yet": "Äänestäminen ei ole vielä alkanut."
+      },
+
+      "empty": {
+        "no_elections_available": "Sinulla ei ole äänioikeutta yhteenkään vaaliin."
+      }
     }
 
+  },
+
+  "common": {
+    "loading": "Ladataan"
   },
 
   "partials": {
