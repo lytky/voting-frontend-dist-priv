@@ -30,9 +30,16 @@
 
       "error": {
         "title_invalid_key": "Länk kan inte användas",
-        "lead": "Inloggningslänk har utgått eller är ogiltig.",
-        "private_browsing_note": "Kontrollera att din webbläsare inte är i Private Browsing-läge.",
-        "request_new_link": "Skicka ny länk"
+        "lead": "Inloggningslänk har utgått eller röstning är stängd.",
+        "private_browsing_note": "Kontrollera att din webbläsare inte är i Private Browsing -läge.",
+        "request_new_link": "Skicka ny länk",
+
+        "private_browsing_mode": {
+          "title": "Fel med Private Browsing -läge",
+          "lead": "Din webbläsare är i \"Private Browsing\" -läge, vilket förhindrar röstningstjänst från att fungera.",
+          "what_now": "Vänligen öppna inloggningslänken i ett vanligt webbläsarfönster."
+        }
+
       }
     },
 
@@ -51,7 +58,7 @@
       "election_dates_explained":
         "Röstningen pågår ti 15.12.2015 kl. 9:00–20:00 och on 16.12.2015 kl. 9:00–17:00.",
       "staff_eligibility_note":
-        "ersoner som hör till den ordinarie personalen har inte rösträtt vid valet av studentrepresentanter (Universitetets valinstruktion 10 §)",
+        "Personer som hör till den ordinarie personalen har inte rösträtt vid valet av studentrepresentanter (Universitetets valinstruktion 10 §)",
       "private_browsing_note":
         "Kontrollera att din webbläsare inte är i Private Browsing-läge då du öppnar länken.",
 
@@ -73,7 +80,8 @@
       },
 
       "errors": {
-        "not_eligible_in_any_election": "Du har inte rösträtt vid någon av de nuvarande valet."
+        "not_eligible_in_any_election": "Du har inte rösträtt vid någon av de nuvarande valet.",
+        "session_creation_not_permitted": "Röstningen är stängd. Du kan visa datum och tid för att rösta ovanför."
       }
     },
 
@@ -115,7 +123,6 @@
         "about-to-change-existing-vote": "Du är på väg att ändra en tidigare gjuten röst. Förändring kommer att spelas in när du klickar på 'Rösta'.",
         "button-submit-caption": "Rösta",
         "submitting": "Röstar .."
-
       },
 
       "vote-has-been-cast": "Din röst har registrerats!",

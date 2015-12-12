@@ -30,9 +30,16 @@
 
       "error": {
         "title_invalid_key": "Avain ei kelpaa",
-        "lead": "Sisäänkirjautumislinkkisi on vanhentunut tai virheellinen.",
+        "lead": "Sisäänkirjautumislinkkisi on vanhentunut tai äänestys on suljettu.",
         "private_browsing_note": "Tarkista myös, ettei selaimesi ole Private Browsing tilassa.",
-        "request_new_link": "Pyydä uusi linkki"
+        "request_new_link": "Pyydä uusi linkki",
+
+        "private_browsing_mode": {
+          "title": "Selaimesi on yksityistilassa",
+          "lead": "Selaimesi käyttää \"Private Browsing Mode\" -yksityisyysasetusta, mikä estää vaalijärjestelmän toiminnan.",
+          "what_now": "Avaa sisäänkirjautumislinkki tavallisessa selainikkunassa."
+        }
+
       }
     },
 
@@ -73,7 +80,8 @@
       },
 
       "errors": {
-        "not_eligible_in_any_election": "Sinulla ei ole äänioikeutta yhteenkään vaaliin."
+        "not_eligible_in_any_election": "Sinulla ei ole äänioikeutta yhteenkään vaaliin.",
+        "session_creation_not_permitted": "Äänestys ei ole avoinna. Näet äänestämisen aukiolon päivämäärän ja kellonajan yllä."
       }
     },
 
@@ -113,7 +121,8 @@
         "header-name": "Nimi",
         "ingress": "Valitse ehdokas alla olevasta listasta.",
         "about-to-change-existing-vote": "Olet muuttamassa aiemmin antamaasi ääntä. Muutos kirjataan vasta kun painat 'Äänestä'.",
-        "button-submit-caption": "Äänestä"
+        "button-submit-caption": "Äänestä",
+        "submitting": "Äänestetään .."
       },
 
       "vote-has-been-cast": "Äänesi on nyt kirjattu!",

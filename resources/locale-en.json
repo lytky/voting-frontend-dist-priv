@@ -29,10 +29,17 @@
       "loading": "Loading",
 
       "error": {
-        "title_invalid_key": "Invalid Key Given",
-        "lead": "Your sign in link is not valid or has expired.",
+        "title_invalid_key": "Invalid link",
+        "lead": "Your sign in link has expired or voting is closed.",
         "private_browsing_note": "Please check that your browser is not in Private Browsing Mode.",
-        "request_new_link": "Reqeust new link"
+        "request_new_link": "Reqeust new link",
+
+        "private_browsing_mode": {
+          "title": "You're in Private Browsing Mode",
+          "lead": "Your browser has \"Private Browsing Mode\" enabled, which prevents the voting service from functioning.",
+          "what_now": "Please open the sign in link in a normal browser window."
+        }
+
       }
     },
 
@@ -73,7 +80,8 @@
       },
 
       "errors": {
-        "not_eligible_in_any_election": "You are not eligible in any of the current elections."
+        "not_eligible_in_any_election": "You are not eligible in any of the current elections.",
+        "session_creation_not_permitted": "Voting is closed. You can view the date and time for voting above."
       }
     },
 
@@ -113,7 +121,8 @@
         "header-name": "Name",
         "ingress": "Choose candidate from the list below.",
         "about-to-change-existing-vote": "You are about to change a previously cast vote. Change will be recorded after you click 'Vote'.",
-        "button-submit-caption": "Vote"
+        "button-submit-caption": "Vote",
+        "submitting": "Voting .."
       },
 
       "vote-has-been-cast": "Your vote is now recorded!",
