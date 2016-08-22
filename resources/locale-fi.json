@@ -125,7 +125,7 @@
         "submitting": "Äänestetään .."
       },
 
-      "vote-has-been-cast": "Äänesi on nyt kirjattu!",
+      "vote-has-been-cast": "Äänesi on kirjattu!",
       "if-you-are-eligible-in-others": "Jos sinulla on äänioikeus useassa vaalissa,",
       "choose-next-election": "valitse seuraava vaali",
       "close-window-when-finished": "Sulje lopuksi selainikkuna.",
@@ -134,7 +134,7 @@
         "title": "Hae ehdokasta",
         "candidate-name": "Ehdokasnimi",
         "header-number": "Numero",
-        "header-candidate": "Ehdokas (henkilökohtainen varajäsen)"
+        "header-candidate": "Ehdokas"
       }
     },
 

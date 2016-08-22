@@ -128,13 +128,13 @@
       "vote-has-been-cast": "Your vote is now recorded!",
       "if-you-are-eligible-in-others": "If you are eligible in multiple elections,",
       "choose-next-election": "select next election",
-      "close-window-when-finished": "Close the browser window when you have finished.",
+      "close-window-when-finished": "You may close the browser window.",
 
       "search": {
         "title": "Find a candidate",
         "candidate-name": "Candidate name",
         "header-number": "Nummer",
-        "header-candidate": "Candidate (personal vice member)"
+        "header-candidate": "Candidate"
       }
 
     },
