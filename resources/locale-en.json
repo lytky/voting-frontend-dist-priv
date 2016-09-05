@@ -1,7 +1,7 @@
 {
   "index": {
     "menu": {
-      "title": "Elections",
+      "title": "Council Elections 2016",
       "sign_up": "Sign Up",
       "elections": "Vote",
       "profile": "Eligibility",
@@ -11,18 +11,18 @@
 
   "pages": {
     "main": {
-      "page_title": "Administration Elections",
+      "page_title": "Council Elections",
       "you_may_check_eligibility":
         "You may check your eligibility for the elections by requesting a sign in link. Link will be sent to the email address you have submitted to the Helsinki University Student Registry by 15.9.2015.",
-      "you_may_request_session_link":
-        "Request a sign in link to the email address you have submitted to the Helsinki University Student Registry by 15.9.2015",
+      "sign_in_using_university_account":
+        "Sign in using your account of the University of Helsinki.",
       "signin_will_commence_at":
         "The service is available starting from:",
       "eligibility_check": "Eligibility for the elections",
       "voting": "Voting",
 
       "button_caption_eligibility": "Check Eligibility",
-      "button_caption_vote": "To the Voting!"
+      "button_caption_vote": "Let's Vote!"
     },
 
     "sign_in": {
@@ -133,7 +133,7 @@
       "search": {
         "title": "Find a candidate",
         "candidate-name": "Candidate name",
-        "header-number": "Nummer",
+        "header-number": "Number",
         "header-candidate": "Candidate"
       }
 

@@ -1,7 +1,7 @@
 {
   "index": {
     "menu": {
-      "title": "Förvaltningsval",
+      "title": "Delegationsval",
       "sign_up": "Logga in",
       "elections": "Rösta",
       "profile": "Egna uppgifter",
@@ -11,11 +11,11 @@
 
   "pages": {
     "main": {
-      "page_title": "Förvaltningsval",
+      "page_title": "Delegationsval",
       "you_may_check_eligibility":
         "Du kan kontrollera din valbarhet genom att beställa en inloggningslänk till den e-postadress som du har meddelat till studentregistret vid Helsingfors universitet före 15.09.2015.",
-      "you_may_request_session_link":
-        "Beställ en inloggningslänk till den e-postadress som du har meddelat till studentregistret vid Helsingfors universitet före 15.09.2015.",
+      "sign_in_using_university_account":
+        "#TODO",
       "signin_will_commence_at":
         "Tjänsten fungerar från och med följande datum:",
       "eligibility_check": "Kontroll av valbarheten",
@@ -133,7 +133,7 @@
       "search": {
         "title": "Sök en kandidat",
         "candidate-name": "Kandidat namn",
-        "header-number": "Number",
+        "header-number": "Nummer",
         "header-candidate": "Kandidat"
       }
 

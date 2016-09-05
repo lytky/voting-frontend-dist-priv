@@ -1,7 +1,7 @@
 {
   "index": {
     "menu": {
-      "title": "Hallintovaalit",
+      "title": "Edustajistovaalit 2016",
       "sign_up": "Kirjaudu",
       "elections": "Äänestä",
       "profile": "Omat Tiedot",
@@ -11,11 +11,11 @@
 
   "pages": {
     "main": {
-      "page_title": "Hallintovaalit",
+      "page_title": "Edustajistovaalit",
       "you_may_check_eligibility":
         "Voit tarkastaa vaalikelpoisuutesi tilaamalla sisäänkirjautumislinkin sähköpostiosoitteeseen, jonka olet ilmoittanut 15.9.2015 mennessä Helsingin yliopiston opiskelijarekisteriin.",
-      "you_may_request_session_link":
-        "Tilaa sisäänkirjautumislinkki sähköpostiosoitteeseen, jonka olet ilmoittanut 15.9.2015 mennessä Helsingin yliopiston opiskelijarekisteriin.",
+      "sign_in_using_university_account":
+        "Kirjaudu sisään Helsingin yliopiston käyttäjätunnuksellasi.",
       "signin_will_commence_at":
         "Palvelu on avoinna seuraavista päivämääristä alkaen:",
       "eligibility_check": "Vaalikelpoisuuden tarkastaminen",
