@@ -25,6 +25,30 @@
       "button_caption_vote": "Rösta!"
     },
 
+    "sign_in_error": {
+      "no_voting_right": {
+        "title": "Ingen Rösträtt",
+        "lead": "Din student nummer har ingen rösträtt vid valet.",
+        "body": "Var god kontakta HUS valarbetare i händelse av ett fel.",
+        "button_caption": "Återvänd till framsidan"
+      },
+
+      "invalid_saml_response": {
+        "title": "Fel i inloggning",
+        "lead": "Samarbetet med inloggningstjänst misslyckades",
+        "body": "Om problemet upprepas, kontakta HUS valarbetare.",
+        "button_caption": "Försök igen"
+      },
+
+      "general": {
+        "title": "Okänt fel",
+        "lead": "Något gick fel av okänd anledning.",
+        "body": "Om problemet upprepas, kontakta HUS valarbetare.",
+        "button_caption": "Försök igen"
+      }
+
+    },
+
     "sign_in": {
       "loading": "Laddar",
 

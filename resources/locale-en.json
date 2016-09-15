@@ -25,6 +25,30 @@
       "button_caption_vote": "Let's Vote!"
     },
 
+    "sign_in_error": {
+      "no_voting_right": {
+        "title": "No Voting Right",
+        "lead": "Your student number does not have a right to vote.",
+        "body": "Please contact the election staff in case of an error.",
+        "button_caption": "Return to Frontpage"
+      },
+
+      "invalid_saml_response": {
+        "title": "Sign In Error",
+        "lead": "Cooperation with the authentication service failed.",
+        "body": "If the problem persists, please contact the election staff.",
+        "button_caption": "Try Again"
+      },
+
+      "general": {
+        "title": "Unknown Error",
+        "lead": "Something went wrong for an unknown reason.",
+        "body": "If the problem persists, please contact the election staff.",
+        "button_caption": "Try Again"
+      }
+
+    },
+
     "sign_in": {
       "loading": "Loading",
 

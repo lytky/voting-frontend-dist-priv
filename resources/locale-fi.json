@@ -25,6 +25,30 @@
       "button_caption_vote": "Äänestämään!"
     },
 
+    "sign_in_error": {
+      "no_voting_right": {
+        "title": "Ei äänioikeutta",
+        "lead": "Opiskelijanumerollasi ei ole äänioikeutta.",
+        "body": "Ongelmatilanteessa ota yhteys HYYn vaalityöntekijään.",
+        "button_caption": "Palaa etusivulle"
+      },
+
+      "invalid_saml_response": {
+        "title": "Kirjautumisvirhe",
+        "lead": "Yhteistyö yliopiston kirjautumispalvelun kanssa epäonnistui.",
+        "body": "Jos ongelma ei poistu uudella yrityksellä, ota yhteys HYYn vaalityöntekijään.",
+        "button_caption": "Yritä uudelleen"
+      },
+
+      "general": {
+        "title": "Tuntematon virhe",
+        "lead": "Jotain meni tuntemattomasta syystä pieleen.",
+        "body": "Ongelmatilanteessa ota yhteys HYYn vaalityöntekijään.",
+        "button_caption": "Yritä uudelleen"
+      }
+
+    },
+
     "sign_in": {
       "loading": "Ladataan",
 
