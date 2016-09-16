@@ -1,7 +1,7 @@
 {
   "index": {
     "menu": {
-      "title": "Delegationsval",
+      "title": "Delegationsval 2016",
       "sign_up": "Logga in",
       "elections": "Rösta",
       "profile": "Egna uppgifter",
@@ -15,11 +15,12 @@
       "you_may_check_eligibility":
         "Du kan kontrollera din valbarhet genom att beställa en inloggningslänk till den e-postadress som du har meddelat till studentregistret vid Helsingfors universitet före 15.09.2015.",
       "sign_in_using_university_account":
-        "#TODO",
-      "signin_will_commence_at":
-        "Tjänsten fungerar från och med följande datum:",
+        "Logga in med ditt konto vid Helsingfors universitet.",
       "eligibility_check": "Kontroll av valbarheten",
-      "voting": "Röstning",
+      "voting_opening_hours": "Röstningen är öppen mellan {{ open }} - {{ close }}.",
+      "voting_opens_at": "Röstning öppnar på",
+      "voting_has_ended": "Röstning har upphört.",
+      "result_will_be_published_at": "Resultatet publiceras på",
 
       "button_caption_eligibility": "Kontrollera valbarheten",
       "button_caption_vote": "Rösta!"
@@ -69,43 +70,57 @@
 
     "sign_up": {
       "page_title": "Logga in",
-      "ingress":
-        "Ange den e-postadress som du har uppgett i studentregistret, så får du en inloggningslänk.",
-     "password_instructions":
-        "Lösenordet skickas bara till en e-postadress som är känd från tidigare. Kolla vilken e-postadress du har angett i studentregistret genom att logga in på <a href='https://weboodi.helsinki.fi'>WebOodi</a>.",
-      "spam_instructions":
-        "Glöm inte att kolla skräppostlådan i e-posten ifall du inte får någon inloggningslänk.",
-      "in_case_of_fire":
-        "I sista hand kan du kontakta HUS valarbetare, <a href='mailto:vaalit@hyy.fi'>vaalit@hyy.fi</a> eller per telefon +358 50 551 6147.",
-
       "attention": "Obs!",
-      "election_dates_explained":
-        "Röstningen pågår ti 15.12.2015 kl. 9:00–20:00 och on 16.12.2015 kl. 9:00–17:00.",
-      "staff_eligibility_note":
-        "Personer som hör till den ordinarie personalen har inte rösträtt vid valet av studentrepresentanter (Universitetets valinstruktion 10 §)",
-      "private_browsing_note":
-        "Kontrollera att din webbläsare inte är i Private Browsing-läge då du öppnar länken.",
+      "voting_days_are": "Röstningen pågår {{ firstPeriod }} och {{ secondPeriod }}",
+      "voting_open_hours_are": "Röstningen är öppen mellan {{ range }}.",
+      "primary_button_caption": "Logga in",
+      "if_cannot_sign_in": "Om du inte kan få tillgång till universitets användarkonto eller loggning in misslyckas av någon anledning, kontakta valet personal {{ name }}, {{ email }}, {{ phone }}.",
 
-      "input_caption_email": "E-post",
-      "button_caption_submit": "Skicka inloggningslänk",
-      "button_caption_submitting": "Skickar ..",
+      "edari": {
+        "eligibility": "Du har en rösträtt om du har inskrivna i och betalat medlemsavgiften för studentkåren. Du kan logga in för att rösta genom att använda universitets användarkonto.",
 
-      "link_has_been_sent":
-        "En inloggningslänk har skickats till den adress du uppgav!",
-      "pls_check_email":
-        "Logga in genom att följa anvisningarna som skickats till din e-postadress.",
-
-      "something_went_wrong": {
-        "detail": "Länken kunde inte skickas.",
-        "if_happens_again":
-          "Om problemet upprepas, kontakta HUS valarbetare, vaalit@hyy.fi eller +358 50 551 6147.",
-        "pls_explain":
-          "Förklara för valarbetaren vad som gick fel:"
+        "late_member_note": "#TODO Mikäli ilmoittauduit läsnäolevaksi vasta äskettäin, opiskelijanumeroasi ei välttämättä vielä löydy äänoikeutettujen listasta. Tällöin saat kirjautumisen jälkeen saat ilmoituksen, ettei sinulla ole äänioikeutta. Sinulle voidaan kuitenkin luoda äänioikeus, mikäli esität tositteen jäsenmaksun maksamisesta HYYn keskustoimistolla."
       },
 
-      "errors": {
-        "not_eligible_in_any_election": "Du har inte rösträtt vid någon av de nuvarande valet.",
-        "session_creation_not_permitted": "Röstningen är stängd. Du kan visa datum och tid för att rösta ovanför."
+      "request_link": {
+        "ingress":
+          "Ange den e-postadress som du har uppgett i studentregistret, så får du en inloggningslänk.",
+        "password_instructions":
+          "Lösenordet skickas bara till en e-postadress som är känd från tidigare. Kolla vilken e-postadress du har angett i studentregistret genom att logga in på <a href='https://weboodi.helsinki.fi'>WebOodi</a>.",
+        "spam_instructions":
+          "Glöm inte att kolla skräppostlådan i e-posten ifall du inte får någon inloggningslänk.",
+        "in_case_of_fire":
+          "I sista hand kan du kontakta HUS valarbetare, <a href='mailto:vaalit@hyy.fi'>vaalit@hyy.fi</a> eller per telefon +358 50 551 6147.",
+
+        "attention": "Obs!",
+        "election_dates_explained":
+          "Röstningen pågår ti 15.12.2015 kl. 9:00–20:00 och on 16.12.2015 kl. 9:00–17:00.",
+        "staff_eligibility_note":
+          "Personer som hör till den ordinarie personalen har inte rösträtt vid valet av studentrepresentanter (Universitetets valinstruktion 10 §)",
+        "private_browsing_note":
+          "Kontrollera att din webbläsare inte är i Private Browsing-läge då du öppnar länken.",
+
+        "input_caption_email": "E-post",
+        "button_caption_submit": "Skicka inloggningslänk",
+        "button_caption_submitting": "Skickar ..",
+
+        "link_has_been_sent":
+          "En inloggningslänk har skickats till den adress du uppgav!",
+        "pls_check_email":
+          "Logga in genom att följa anvisningarna som skickats till din e-postadress.",
+
+        "something_went_wrong": {
+          "detail": "Länken kunde inte skickas.",
+          "if_happens_again":
+            "Om problemet upprepas, kontakta HUS valarbetare, vaalit@hyy.fi eller +358 50 551 6147.",
+          "pls_explain":
+            "Förklara för valarbetaren vad som gick fel:"
+        },
+
+        "errors": {
+          "not_eligible_in_any_election": "Du har inte rösträtt vid någon av de nuvarande valet.",
+          "session_creation_not_permitted": "Röstningen är stängd. Du kan visa datum och tid för att rösta ovanför."
+        }
       }
     },
 
@@ -116,10 +131,11 @@
 
     "profile": {
       "page_title": "Egna uppgifter",
+      "ingress": "Du har loggat in med följande information.",
       "you_are_eligible":
         "Du är valbar i valet på din institution och fakultet (Studentkårens instruktion om val av studentrepresentanter i universitetsförvaltningen 5 §).",
       "in_case_of_problem":
-        "Kontakta studentkåren ifall något är oklart med dessa uppgifter, vaalit@hyy.fi +358 50 551 6147.",
+        "Kontakta studentkåren ifall något är oklart med dessa uppgifter.",
       "voter": {
         "name": "Namn",
         "email": "E-post",
@@ -133,10 +149,10 @@
       "page_title": "Rösta",
 
       "error": {
-        "something_went_wrong": "Oh noes :/",
+        "something_went_wrong": "Något hände",
         "could_not_load_candidates": "Nedladdning av kandidat list gick fel.",
-        "request_a_new_link_and_try_again": "Skicka ny inloggningslänk och försök igen.",
-        "button_request_link": "Skicka ny länk"
+        "try_again": "Logga ut och försök igen att logga in.",
+        "button_caption": "Försök igen"
       },
 
       "vote-ballot": {
@@ -144,11 +160,14 @@
         "header-number": "Nummer",
         "header-name": "Namn",
         "ingress": "Välj kandidat från listan nedan.",
+        "registration-note": "Din röst är inte registrerad förrän du trycker \"Rösta\".",
         "about-to-change-existing-vote": "Du är på väg att ändra en tidigare gjuten röst. Förändring kommer att spelas in när du klickar på 'Rösta'.",
         "button-submit-caption": "Rösta",
         "submitting": "Röstar .."
       },
 
+      "coalition-index-text": "Koalitioner består av allianser och allianser består av kandidater.",
+      "voting-right-already-used": "Du har redan röstat på",
       "vote-has-been-cast": "Din röst har registrerats!",
       "if-you-are-eligible-in-others": "Om du har rösträtt vid flera val,",
       "choose-next-election": "välj nästa val",
@@ -158,7 +177,8 @@
         "title": "Sök en kandidat",
         "candidate-name": "Kandidat namn",
         "header-number": "Nummer",
-        "header-candidate": "Kandidat"
+        "header-candidate": "Kandidat",
+        "browser-search-tip": "Du kan också använda webbläsarens sökning."
       }
 
     },
@@ -166,10 +186,13 @@
     "elections": {
       "page_title": "Rösta",
       "sign_in": "Logga In",
-      "request_link_please": "Du kan rösta genom att beställa en inloggningslänk till epost.",
-      "button_request_link": "Beställ länk",
+      "sign_up_please": "Du kan rösta genom att logga in.",
+      "sign_up_button_caption": "Det ska vi göra!",
 
       "you_can_vote_in_the_following": "Du kan rösta i följande valen:",
+      "choose_election": "Öppna valet, välj en kandidat och tryck \"rösta\".",
+      "submit_vote_help": "Din röst registreras när dy trycker på \"rösta\"-knappen efter att ha valt en kandidat.",
+      "vote_is_immutable": "Du kan inte ändra din röst efteråt.",
 
       "table_header": {
         "election_name": "Val namn",
@@ -193,18 +216,17 @@
 
   "partials": {
     "info": {
-      "main_title": "Förvaltningsvalet vid Helsingfors universitet",
+      "main_title": "HUS delegationsval",
       "ingress":
-        "I valet av studentrepresentanter i förvaltningen väljs studentrepresentanterna i kollegiet, fakultetsrådet och institutionrådet.",
-      "signin_is_available_at":
-        "Du kan logga in i systemet under tiden",
+        "I delegationsvalet väljs studentkårens högsta beslutande organ, delegationen, som har 60 medlemmar. Röstberättigade är alla medlemmar i HUS, det vill säga de cirka 27 000 studenterna vid Helsingfors universitet. ",
       "election_dates_explained":
-        "15.12.2015 kl. 9:00–20:00 och 16.12.2015 kl. 9:00–17:00. Röstningen upphör 16.12.2015 kl. 17:05 för dem som har hunnit logga in före 16.12.2015 kl. 17:00."
+        "Valdag är {{ firstPeriod }} och {{ secondPeriod }}. Röstning är öppen kl. {{ range }}."
     },
 
     "contact": {
       "more_info": "Mera information",
       "hyy_ae_link_caption": "HUS webbsidor om förvaltningsvalet",
+      "hyy_election_link_caption": "HUS webbsidor om valet",
       "in_case_of_fire": "Vid problem, kontakta HUS valarbetare."
     }
   }

@@ -16,10 +16,11 @@
         "You may check your eligibility for the elections by requesting a sign in link. Link will be sent to the email address you have submitted to the Helsinki University Student Registry by 15.9.2015.",
       "sign_in_using_university_account":
         "Sign in using your account of the University of Helsinki.",
-      "signin_will_commence_at":
-        "The service is available starting from:",
       "eligibility_check": "Eligibility for the elections",
-      "voting": "Voting",
+      "voting_opening_hours": "Voting is open between {{ open }} - {{ close }}.",
+      "voting_opens_at": "Voting opens at",
+      "voting_has_ended": "Voting has ended.",
+      "result_will_be_published_at": "Result will be published at",
 
       "button_caption_eligibility": "Check Eligibility",
       "button_caption_vote": "Let's Vote!"
@@ -69,43 +70,57 @@
 
     "sign_up": {
       "page_title": "Sign Up",
-      "ingress":
-        "Give the same e-mail address you have in University’s student registry, and we will send you a registration link.",
-     "password_instructions":
-        "Password can be delivered only to the email address that you have in the student registry. You can check which email address you have used on the contact details page in <a href='https://weboodi.helsinki.fi'>WebOodi</a>.",
-      "spam_instructions":
-        "In case you didn't receive the link, please also check your spam folder.",
-      "in_case_of_fire":
-        "If everything else fails, please contact the election staff of the Student Union <a href='mailto:vaalit@hyy.fi'>vaalit@hyy.fi</a> or +358 50 551 6147.",
+      "attention": "Please note!",
+      "voting_days_are": "The voting days are {{ firstPeriod }} and {{ secondPeriod }}",
+      "voting_open_hours_are": "Voting is open between {{ range }} on each voting day.",
+      "primary_button_caption": "Sign Up",
+      "if_cannot_sign_in": "If you cannot access your university user account or signing up fails for some reason, please contact the election staff {{ name }}, {{ email }}, {{ phone }}.",
 
-      "attention": "Please Notice:",
-      "election_dates_explained":
-        "Voting is between Tue 15.12.2015 at 9:00 - 20:00 and Wed 16.12.2015 at 9:00 - 17:00.",
-      "staff_eligibility_note":
-        "Permanent staff of the university are not eligible to vote student members in the administration elections.",
-      "private_browsing_note":
-        "Ensure that you do not have Private Browsing Mode enabled when you open the sign in link.",
+      "edari": {
+        "eligibility": "You have a voting right if you have enrolled in and paid the member fee of the Student Union. You can sign up to vote by using your Helsinki University user account.",
 
-      "input_caption_email": "Email",
-      "button_caption_submit": "Send me the link",
-      "button_caption_submitting": "Sending ..",
-
-      "link_has_been_sent":
-        "Link for sign in has been sent!",
-      "pls_check_email":
-        "Please follow the instructions in your email and sign in.",
-
-      "something_went_wrong": {
-        "detail": "We were unable to send you the link.",
-        "if_happens_again":
-          "If the problem happens again, please contact the election staff of the Student Union vaalit@hyy.fi +358 50 551 6147.",
-        "pls_explain":
-          "Please let us know the technical error message:"
+        "late_member_note": "If you enrolled in just recently, your student number might not yet be in the list of people with voting rights. In that case you will receive a message after signing in that you don't have a voting right. Your voting right can be created if you proof your payment of the Student Union's member fee at the office of the Student Union."
       },
 
-      "errors": {
-        "not_eligible_in_any_election": "You are not eligible in any of the current elections.",
-        "session_creation_not_permitted": "Voting is closed. You can view the date and time for voting above."
+      "request_link": {
+        "ingress":
+          "Give the same e-mail address you have in University’s student registry, and we will send you a registration link.",
+       "password_instructions":
+          "Password can be delivered only to the email address that you have in the student registry. You can check which email address you have used on the contact details page in <a href='https://weboodi.helsinki.fi'>WebOodi</a>.",
+        "spam_instructions":
+          "In case you didn't receive the link, please also check your spam folder.",
+        "in_case_of_fire":
+          "If everything else fails, please contact the election staff of the Student Union <a href='mailto:vaalit@hyy.fi'>vaalit@hyy.fi</a> or +358 50 551 6147.",
+
+        "attention": "Please Notice:",
+        "election_dates_explained":
+          "Voting is between Tue 15.12.2015 at 9:00 - 20:00 and Wed 16.12.2015 at 9:00 - 17:00.",
+        "staff_eligibility_note":
+          "Permanent staff of the university are not eligible to vote student members in the administration elections.",
+        "private_browsing_note":
+          "Ensure that you do not have Private Browsing Mode enabled when you open the sign in link.",
+
+        "input_caption_email": "Email",
+        "button_caption_submit": "Send me the link",
+        "button_caption_submitting": "Sending ..",
+
+        "link_has_been_sent":
+          "Link for sign in has been sent!",
+        "pls_check_email":
+          "Please follow the instructions in your email and sign in.",
+
+        "something_went_wrong": {
+          "detail": "We were unable to send you the link.",
+          "if_happens_again":
+            "If the problem happens again, please contact the election staff of the Student Union vaalit@hyy.fi +358 50 551 6147.",
+          "pls_explain":
+            "Please let us know the technical error message:"
+        },
+
+        "errors": {
+          "not_eligible_in_any_election": "You are not eligible in any of the current elections.",
+          "session_creation_not_permitted": "Voting is closed. You can view the date and time for voting above."
+        }
       }
     },
 
@@ -116,6 +131,7 @@
 
     "profile": {
       "page_title": "Personal Information",
+      "ingress": "You have signed in with the following information.",
       "you_are_eligible":
         "You are eligible in the elections of your faculty and department.",
       "in_case_of_problem":
@@ -135,20 +151,23 @@
       "error": {
         "something_went_wrong": "Something happened",
         "could_not_load_candidates": "Candidates could not be loaded.",
-        "request_a_new_link_and_try_again": "Request a new sign in link and try again.",
-        "button_request_link": "Request link"
+        "try_again": "Sign out and retry to signing in.",
+        "button_caption": "Try again"
       },
 
       "vote-ballot": {
         "title": "Vote ballot",
         "header-number": "Number",
         "header-name": "Name",
-        "ingress": "Choose candidate from the list below.",
+        "ingress": "Choose a candidate from the list.",
+        "registration-note": "Your vote is not registered until you press \"Vote\".",
         "about-to-change-existing-vote": "You are about to change a previously cast vote. Change will be recorded after you click 'Vote'.",
         "button-submit-caption": "Vote",
         "submitting": "Voting .."
       },
 
+      "coalition-index-text": "Coalitions consist of alliances and alliances consist of candidates.",
+      "voting-right-already-used": "You have already voted at",
       "vote-has-been-cast": "Your vote is now recorded!",
       "if-you-are-eligible-in-others": "If you are eligible in multiple elections,",
       "choose-next-election": "select next election",
@@ -158,18 +177,22 @@
         "title": "Find a candidate",
         "candidate-name": "Candidate name",
         "header-number": "Number",
-        "header-candidate": "Candidate"
+        "header-candidate": "Candidate",
+        "browser-search-tip": "You can also use browser's search."
       }
 
     },
 
     "elections": {
       "page_title": "Vote",
-      "sign_in": "Sign In",
-      "request_link_please": "You can vote after you have requested a sign in link to your email.",
-      "button_request_link": "Request link",
+      "sign_in": "Sign in First",
+      "sign_up_please": "You can vote after you have signed in.",
+      "sign_up_button_caption": "Let's do it!",
 
       "you_can_vote_in_the_following": "You can vote in the following elections:",
+      "choose_election": "Open the election, choose a candidate and press \"vote\".",
+      "submit_vote_help": "Your vote will be registered when you press the \"vote\" button after choosing a candidate.",
+      "vote_is_immutable": "A cast vote cannot be changed afterwards.",
 
       "table_header": {
         "election_name": "Election Name",
@@ -193,18 +216,17 @@
 
   "partials": {
     "info": {
-      "main_title": "University of Helsinki Administration Elections",
+      "main_title": "HYY Council Elections",
       "ingress":
-        "Elections of the student members to the College, the Department Council and the Faculty Council.",
-      "signin_is_available_at":
-        "Signing in is availailable as follows",
+        "HYY’s Representative Council elections are conducted to elect 60 members into the council, the highest decision-making body of the Student Union. All HYY’s members, around 27,000 students at the University of Helsinki, have the right to vote in the elections.",
       "election_dates_explained":
-        "between Tue 15.12.2015 at 9:00 - 20:00 and Wed 16.12.2015 at 9:00 - 17:00. Voting will end at Wed 16.12.2015 at 17:05 for those who signed in before Wed 16.12.2015 by 17:00."
+        "Election days are {{ firstPeriod }} and {{ secondPeriod }}. Voting is open during {{ range }}."
     },
 
     "contact": {
       "more_info": "More information",
       "hyy_ae_link_caption": "Student Union's info page",
+      "hyy_election_link_caption": "Student Union's info page",
       "in_case_of_fire": "In case of a problem, please contact"
     }
   }
