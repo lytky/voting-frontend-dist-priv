@@ -163,6 +163,7 @@
         "registration-note": "Din röst är inte registrerad förrän du trycker \"Rösta\".",
         "about-to-change-existing-vote": "Du är på väg att ändra en tidigare gjuten röst. Förändring kommer att spelas in när du klickar på 'Rösta'.",
         "button-submit-caption": "Rösta",
+        "button-submit-confirm": "Tryck igen",
         "submitting": "Röstar .."
       },
 
@@ -178,7 +179,8 @@
         "candidate-name": "Kandidat namn",
         "header-number": "Nummer",
         "header-candidate": "Kandidat",
-        "browser-search-tip": "Du kan också använda webbläsarens sökning."
+        "browser-search-tip": "Du kan också använda webbläsarens sökning.",
+        "when-no-results": "Allianser, som inte matchar din sökfråga, visas inte."
       }
 
     },

@@ -163,6 +163,7 @@
         "registration-note": "Äänesi kirjataan vasta, kun painat \"Äänestä\".",
         "about-to-change-existing-vote": "Olet muuttamassa aiemmin antamaasi ääntä. Muutos kirjataan vasta kun painat 'Äänestä'.",
         "button-submit-caption": "Äänestä",
+        "button-submit-confirm": "Paina uudelleen",
         "submitting": "Äänestetään .."
       },
 
@@ -178,7 +179,8 @@
         "candidate-name": "Ehdokasnimi",
         "header-number": "Numero",
         "header-candidate": "Ehdokas",
-        "browser-search-tip": "Voit käyttää myös selaimen hakutoimintoa."
+        "browser-search-tip": "Voit käyttää myös selaimen hakutoimintoa.",
+        "when-no-results": "Vaaliliitot, jotka eivät vastanneet hakuehtoasi, eivät ole näkyvissä."
       }
     },
 

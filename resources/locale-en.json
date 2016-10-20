@@ -163,6 +163,7 @@
         "registration-note": "Your vote is not registered until you press \"Vote\".",
         "about-to-change-existing-vote": "You are about to change a previously cast vote. Change will be recorded after you click 'Vote'.",
         "button-submit-caption": "Vote",
+        "button-submit-confirm": "Press again",
         "submitting": "Voting .."
       },
 
@@ -178,7 +179,8 @@
         "candidate-name": "Candidate name",
         "header-number": "Number",
         "header-candidate": "Candidate",
-        "browser-search-tip": "You can also use browser's search."
+        "browser-search-tip": "You can also use browser's search.",
+        "when-no-results": "Alliances, which did not match your search query, are not displayed."
       }
 
     },
