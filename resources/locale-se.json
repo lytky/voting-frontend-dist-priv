@@ -21,6 +21,7 @@
       "voting_opens_at": "Röstning öppnar på",
       "voting_has_ended": "Röstning har upphört.",
       "result_will_be_published_at": "Resultatet publiceras på",
+      "voting_continues_at": "Omröstningen fortsätter {{ day }} kl {{ time }}",
 
       "button_caption_eligibility": "Kontrollera valbarheten",
       "button_caption_vote": "Rösta!"
@@ -74,12 +75,13 @@
       "voting_days_are": "Röstningen pågår {{ firstPeriod }} och {{ secondPeriod }}",
       "voting_open_hours_are": "Röstningen är öppen mellan {{ range }}.",
       "primary_button_caption": "Logga in",
-      "if_cannot_sign_in": "Om du inte kan få tillgång till universitets användarkonto eller loggning in misslyckas av någon anledning, kontakta valet personal {{ name }}, {{ email }}, {{ phone }}.",
+      "if_cannot_sign_in": "Om du inte kan få tillgång till universitets användarkonto eller loggning in misslyckas av någon anledning, kontakta valarbetare {{ name }}, {{ email }}, {{ phone }}.",
+      "sign_in_is_not_active": "Röstningen är inte öppen just nu.",
 
       "edari": {
         "eligibility": "Du har en rösträtt om du har inskrivna i och betalat medlemsavgiften för studentkåren. Du kan logga in för att rösta genom att använda universitets användarkonto.",
 
-        "late_member_note": "#TODO Mikäli ilmoittauduit läsnäolevaksi vasta äskettäin, opiskelijanumeroasi ei välttämättä vielä löydy äänoikeutettujen listasta. Tällöin saat kirjautumisen jälkeen saat ilmoituksen, ettei sinulla ole äänioikeutta. Sinulle voidaan kuitenkin luoda äänioikeus, mikäli esität tositteen jäsenmaksun maksamisesta HYYn keskustoimistolla."
+        "late_member_note": "Ifall du nyligen gjort din närvaroanmälan kan det vara att ditt studentnummer inte finns på listan för dm med rösträtt i valet. I så fall får du ett meddelande när du loggar in att du inte har rösträtt. Vi kan ändå skapa åt dig din rösträtt ifall du visar upp kvitto på betald studentkårsavgift på Studentkårens centralkansli."
       },
 
       "request_link": {

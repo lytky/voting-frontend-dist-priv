@@ -21,6 +21,7 @@
       "voting_opens_at": "Voting opens at",
       "voting_has_ended": "Voting has ended.",
       "result_will_be_published_at": "Result will be published at",
+      "voting_continues_at": "Voting continues {{ day }} at {{ time }}",
 
       "button_caption_eligibility": "Check Eligibility",
       "button_caption_vote": "Let's Vote!"
@@ -75,6 +76,7 @@
       "voting_open_hours_are": "Voting is open between {{ range }} on each voting day.",
       "primary_button_caption": "Sign Up",
       "if_cannot_sign_in": "If you cannot access your university user account or signing up fails for some reason, please contact the election staff {{ name }}, {{ email }}, {{ phone }}.",
+      "sign_in_is_not_active": "Voting is not open at the moment.",
 
       "edari": {
         "eligibility": "You have a voting right if you have enrolled in and paid the member fee of the Student Union. You can sign up to vote by using your Helsinki University user account.",
