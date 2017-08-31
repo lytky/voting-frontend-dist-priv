@@ -92,7 +92,7 @@
         "spam_instructions":
           "In case you didn't receive the link, please also check your spam folder.",
         "in_case_of_fire":
-          "If everything else fails, please contact the election staff of the Student Union <a href='mailto:vaalit@hyy.fi'>vaalit@hyy.fi</a> or +358 50 551 6147.",
+          "If everything else fails, please contact the election staff of the Student Union <a href='mailto:vaalit@ltky.fi'>vaalit@ltky.fi</a> or +358 50 551 6147.",
 
         "attention": "Please Notice:",
         "election_dates_explained":
@@ -114,7 +114,7 @@
         "something_went_wrong": {
           "detail": "We were unable to send you the link.",
           "if_happens_again":
-            "If the problem happens again, please contact the election staff of the Student Union vaalit@hyy.fi +358 50 551 6147.",
+            "If the problem happens again, please contact the election staff of the Student Union vaalit@ltky.fi +358 50 551 6147.",
           "pls_explain":
             "Please let us know the technical error message:"
         },
@@ -220,9 +220,9 @@
 
   "partials": {
     "info": {
-      "main_title": "HYY Council Elections",
+      "main_title": "LTKY Council Elections",
       "ingress":
-        "HYY’s Representative Council elections are conducted to elect 60 members into the council, the highest decision-making body of the Student Union. All HYY’s members, around 27,000 students at the University of Helsinki, have the right to vote in the elections.",
+        "LTKY’s Representative Council elections are conducted to elect 60 members into the council, the highest decision-making body of the Student Union. All LTKY’s members, around 3,000 students at the Lappeenranta University of Technology, have the right to vote in the elections.",
       "election_dates_explained":
         "Election days are {{ firstPeriod }} and {{ secondPeriod }}. Voting is open during {{ range }}."
     },

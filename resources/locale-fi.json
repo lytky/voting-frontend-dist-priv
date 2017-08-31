@@ -1,7 +1,7 @@
 {
   "index": {
     "menu": {
-      "title": "Edustajistovaalit 2016",
+      "title": "Edustajistovaalit 2017",
       "sign_up": "Kirjaudu",
       "elections": "Äänestä",
       "profile": "Omat Tiedot",
@@ -13,9 +13,9 @@
     "main": {
       "page_title": "Edustajistovaalit",
       "you_may_check_eligibility":
-        "Voit tarkastaa vaalikelpoisuutesi tilaamalla sisäänkirjautumislinkin sähköpostiosoitteeseen, jonka olet ilmoittanut 15.9.2015 mennessä Helsingin yliopiston opiskelijarekisteriin.",
+        "Voit tarkastaa vaalikelpoisuutesi tilaamalla sisäänkirjautumislinkin sähköpostiosoitteeseen, jonka olet ilmoittanut xx.x.2017 mennessä Lappeenrannan teknillisen yliopiston opiskelijarekisteriin.",
       "sign_in_using_university_account":
-        "Kirjaudu sisään Helsingin yliopiston käyttäjätunnuksellasi.",
+        "Kirjaudu sisään Lappeenrannan teknillisen yliopiston käyttäjätunnuksellasi.",
       "eligibility_check": "Vaalikelpoisuuden tarkastaminen",
       "voting_opening_hours": "Äänestäminen on avoinna klo {{ open }} - {{ close }}.",
       "voting_opens_at": "Äänestäminen avautuu",
@@ -31,21 +31,21 @@
       "no_voting_right": {
         "title": "Ei äänioikeutta",
         "lead": "Opiskelijanumerollasi ei ole äänioikeutta.",
-        "body": "Ongelmatilanteessa ota yhteys HYYn vaalityöntekijään.",
+        "body": "Ongelmatilanteessa ota yhteys LTKYn vaalityöntekijään.",
         "button_caption": "Palaa etusivulle"
       },
 
       "invalid_saml_response": {
         "title": "Kirjautumisvirhe",
         "lead": "Yhteistyö yliopiston kirjautumispalvelun kanssa epäonnistui.",
-        "body": "Jos ongelma ei poistu uudella yrityksellä, ota yhteys HYYn vaalityöntekijään.",
+        "body": "Jos ongelma ei poistu uudella yrityksellä, ota yhteys LTKYn vaalityöntekijään.",
         "button_caption": "Yritä uudelleen"
       },
 
       "general": {
         "title": "Tuntematon virhe",
         "lead": "Jotain meni tuntemattomasta syystä pieleen.",
-        "body": "Ongelmatilanteessa ota yhteys HYYn vaalityöntekijään.",
+        "body": "Ongelmatilanteessa ota yhteys LTKYn vaalityöntekijään.",
         "button_caption": "Yritä uudelleen"
       }
 
@@ -75,13 +75,13 @@
       "voting_days_are": "Äänestyspäivät ovat {{ firstPeriod }} ja {{ secondPeriod }}",
       "voting_open_hours_are": "Äänestys on avoinna klo {{ range }} välisenä aikana.",
       "primary_button_caption": "Kirjaudu sisään",
-      "if_cannot_sign_in": "Mikäli et voi käyttää yliopiston käyttäjätunnusta tai sisäänkirjautuminen ei jostain syystä onnistu, ota yhteys HYYn vaalityöntekijään {{ name }}, {{ email }}, {{ phone }}.",
+      "if_cannot_sign_in": "Mikäli et voi käyttää yliopiston käyttäjätunnusta tai sisäänkirjautuminen ei jostain syystä onnistu, ota yhteys LTKYn vaalityöntekijään {{ name }}, {{ email }}, {{ phone }}.",
       "sign_in_is_not_active": "Äänestäminen ei ole tällä hetkellä avoinna.",
 
       "edari": {
-        "eligibility": "Olet äänioikeutettu, kun olet ilmoittautunut läsnäolevaksi ja maksanut HYYn jäsenmaksun. Voit sisäänkirjautua äänestämään Helsingin yliopiston käyttäjätunnuksellasi.",
+        "eligibility": "Olet äänioikeutettu, kun olet ilmoittautunut läsnäolevaksi ja maksanut LTKYn jäsenmaksun. Voit sisäänkirjautua äänestämään Helsingin yliopiston käyttäjätunnuksellasi.",
 
-        "late_member_note": "Mikäli ilmoittauduit läsnäolevaksi vasta äskettäin, opiskelijanumeroasi ei välttämättä vielä löydy äänoikeutettujen listasta. Tällöin saat kirjautumisen jälkeen saat ilmoituksen, ettei sinulla ole äänioikeutta. Sinulle voidaan kuitenkin luoda äänioikeus, mikäli esität tositteen jäsenmaksun maksamisesta HYYn keskustoimistolla."
+        "late_member_note": "Mikäli ilmoittauduit läsnäolevaksi vasta äskettäin, opiskelijanumeroasi ei välttämättä vielä löydy äänoikeutettujen listasta. Tällöin saat kirjautumisen jälkeen saat ilmoituksen, ettei sinulla ole äänioikeutta. Sinulle voidaan kuitenkin luoda äänioikeus, mikäli esität tositteen jäsenmaksun maksamisesta LTKYn keskustoimistolla."
       },
 
       "request_link": {
@@ -92,7 +92,7 @@
         "spam_instructions":
           "Tarkista myös sähköpostisi roskapostikansio, mikäli et saa sisäänkirjautumislinkkiä.",
         "in_case_of_fire":
-          "Viime kädessä ota yhteys HYYn vaalityöntekijään <a href='mailto:vaalit@hyy.fi'>vaalit@hyy.fi</a> tai +358 50 551 6147.",
+          "Viime kädessä ota yhteys LTKYn vaalityöntekijään <a href='mailto:vaalit@ltky.fi'>vaalit@ltky.fi</a> tai +358 50 551 6147.",
 
         "attention": "Huom!",
         "election_dates_explained":
@@ -114,7 +114,7 @@
         "something_went_wrong": {
           "detail": "Linkkiä ei voitu lähettää.",
           "if_happens_again":
-            "Jos ongelma toistuu, ota yhteys HYYn vaalityöntekijään HYYn vaalityöntekijään vaalit@hyy.fi +358 50 551 6147.",
+            "Jos ongelma toistuu, ota yhteys LTKYn vaalityöntekijään LTKYn vaalityöntekijään vaalit@ltky.fi +358 xx xxx xxxx.",
           "pls_explain":
             "Kerro vaalityöntekijälle virheen tekninen syy:"
         },
@@ -219,18 +219,18 @@
 
   "partials": {
     "info": {
-      "main_title": "HYYn edustajistovaalit",
+      "main_title": "LTKYn edustajistovaalit",
       "ingress":
-        "HYYn edustajistovaaleissa valitaan ylioppilaskunnan ylin päättävä elin, 60-henkinen edustajisto. Äänioikeutettuja ovat HYYn jäsenet eli noin 27 000 Helsingin yliopiston opiskelijaa.",
+        "LTKYn edustajistovaaleissa valitaan ylioppilaskunnan ylin päättävä elin, 60-henkinen edustajisto. Äänioikeutettuja ovat LTKYn jäsenet eli noin 27 000 Helsingin yliopiston opiskelijaa.",
       "election_dates_explained":
         "Äänestyspäivät ovat {{ firstPeriod }} ja {{ secondPeriod }}. Äänestys on avoinna klo {{ range }}."
     },
 
     "contact": {
       "more_info": "Lisätietoa",
-      "hyy_ae_link_caption": "HYYn hallintovaalisivusto",
-      "hyy_election_link_caption": "HYYn vaalisivusto",
-      "in_case_of_fire": "Ongelmatilanteessa ota yhteys HYYn vaalityöntekijään"
+      "hyy_ae_link_caption": "LTKYn hallintovaalisivusto",
+      "hyy_election_link_caption": "LTKYn vaalisivusto",
+      "in_case_of_fire": "Ongelmatilanteessa ota yhteys LTKYn vaalityöntekijään"
     }
   }
 }

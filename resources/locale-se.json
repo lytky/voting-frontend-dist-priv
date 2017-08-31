@@ -92,7 +92,7 @@
         "spam_instructions":
           "Glöm inte att kolla skräppostlådan i e-posten ifall du inte får någon inloggningslänk.",
         "in_case_of_fire":
-          "I sista hand kan du kontakta HUS valarbetare, <a href='mailto:vaalit@hyy.fi'>vaalit@hyy.fi</a> eller per telefon +358 50 551 6147.",
+          "I sista hand kan du kontakta HUS valarbetare, <a href='mailto:vaalit@ltky.fi'>vaalit@ltky.fi</a> eller per telefon +358 50 551 6147.",
 
         "attention": "Obs!",
         "election_dates_explained":
@@ -114,7 +114,7 @@
         "something_went_wrong": {
           "detail": "Länken kunde inte skickas.",
           "if_happens_again":
-            "Om problemet upprepas, kontakta HUS valarbetare, vaalit@hyy.fi eller +358 50 551 6147.",
+            "Om problemet upprepas, kontakta HUS valarbetare, vaalit@ltky.fi eller +358 50 551 6147.",
           "pls_explain":
             "Förklara för valarbetaren vad som gick fel:"
         },
