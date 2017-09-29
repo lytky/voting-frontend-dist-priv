@@ -1,7 +1,7 @@
 {
   "index": {
     "menu": {
-      "title": "Council Elections 2016",
+      "title": "Representative Council Elections 2017",
       "sign_up": "Sign Up",
       "elections": "Vote",
       "profile": "Eligibility",
@@ -11,13 +11,13 @@
 
   "pages": {
     "main": {
-      "page_title": "Council Elections",
+      "page_title": "Representative Council Elections",
       "you_may_check_eligibility":
         "You may check your eligibility for the elections by requesting a sign in link. Link will be sent to the email address you have submitted to the Helsinki University Student Registry by 15.9.2015.",
       "sign_in_using_university_account":
-        "Sign in using your account of the University of Helsinki.",
+        "Sign in using your account of Lappeenranta University of Technology.",
       "eligibility_check": "Eligibility for the elections",
-      "voting_opening_hours": "Voting is open between {{ open }} - {{ close }}.",
+      "voting_opening_hours": "Voting is open between the 1st of November 2017 9.00am and closes on the 8th of November 2017 at 15.00.",
       "voting_opens_at": "Voting opens at",
       "voting_has_ended": "Voting has ended.",
       "result_will_be_published_at": "Result will be published at",
@@ -72,8 +72,8 @@
     "sign_up": {
       "page_title": "Sign Up",
       "attention": "Please note!",
-      "voting_days_are": "The voting days are {{ firstPeriod }} and {{ secondPeriod }}",
-      "voting_open_hours_are": "Voting is open between {{ range }} on each voting day.",
+      "voting_days_are": "The voting is open between 9.00 on the 1st of NOvember 2017 and 15.00 on the 8th of November 2017.",
+      "voting_open_hours_are": "Voting is open around the clock on each voting day.",
       "primary_button_caption": "Sign Up",
       "if_cannot_sign_in": "If you cannot access your university user account or signing up fails for some reason, please contact the election staff {{ name }}, {{ email }}, {{ phone }}.",
       "sign_in_is_not_active": "Voting is not open at the moment.",
@@ -92,11 +92,11 @@
         "spam_instructions":
           "In case you didn't receive the link, please also check your spam folder.",
         "in_case_of_fire":
-          "If everything else fails, please contact the election staff of the Student Union <a href='mailto:vaalit@ltky.fi'>vaalit@ltky.fi</a> or +358 50 551 6147.",
+          "If everything else fails, please contact the election staff of the Student Union <a href='mailto:vaalit@ltky.fi'>vaalit@ltky.fi</a> or +358 50 xxx xxxx.",
 
         "attention": "Please Notice:",
         "election_dates_explained":
-          "Voting is between Tue 15.12.2015 at 9:00 - 20:00 and Wed 16.12.2015 at 9:00 - 17:00.",
+          "The voting is open between 9.00 on the 1st of NOvember 2017 and 15.00 on the 8th of November 2017.",
         "staff_eligibility_note":
           "Permanent staff of the university are not eligible to vote student members in the administration elections.",
         "private_browsing_note":
@@ -135,7 +135,7 @@
       "page_title": "Personal Information",
       "ingress": "You have signed in with the following information.",
       "you_are_eligible":
-        "You are eligible in the elections of your faculty and department.",
+        "You are eligible in the elections (According to the Student union board rules on student representative elections 45-50 §).",
       "in_case_of_problem":
         "If there is a problem with your information, please contact the Student Union.",
       "voter": {
@@ -151,7 +151,7 @@
       "page_title": "Vote",
 
       "error": {
-        "something_went_wrong": "Something happened",
+        "something_went_wrong": "Something hit the fan",
         "could_not_load_candidates": "Candidates could not be loaded.",
         "try_again": "Sign out and retry to signing in.",
         "button_caption": "Try again"
@@ -224,7 +224,7 @@
       "ingress":
         "LTKY’s Representative Council elections are conducted to elect 60 members into the council, the highest decision-making body of the Student Union. All LTKY’s members, around 3,000 students at the Lappeenranta University of Technology, have the right to vote in the elections.",
       "election_dates_explained":
-        "Election days are {{ firstPeriod }} and {{ secondPeriod }}. Voting is open during {{ range }}."
+        "Election opens on the 1st of November 2017 at 9.00 and ends on the 8th of November 2017 at 15.00."
     },
 
     "contact": {

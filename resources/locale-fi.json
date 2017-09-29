@@ -17,7 +17,7 @@
       "sign_in_using_university_account":
         "Kirjaudu sisään Lappeenrannan teknillisen yliopiston käyttäjätunnuksellasi.",
       "eligibility_check": "Vaalikelpoisuuden tarkastaminen",
-      "voting_opening_hours": "Äänestäminen on avoinna klo {{ open }} - {{ close }}.",
+      "voting_opening_hours": "Äänestäminen aukeaa 1.11.2017 klo 9.00 ja sulkeutuu 8.12.2017 klo 15.00.",
       "voting_opens_at": "Äänestäminen avautuu",
       "voting_has_ended": "Äänestys on päättynyt",
       "result_will_be_published_at": "Tulos julkistetaan osoitteessa",
@@ -72,8 +72,8 @@
     "sign_up": {
       "page_title": "Kirjaudu sisään",
       "attention": "Huom!",
-      "voting_days_are": "Äänestyspäivät ovat {{ firstPeriod }} ja {{ secondPeriod }}",
-      "voting_open_hours_are": "Äänestys on avoinna klo {{ range }} välisenä aikana.",
+      "voting_days_are": "Äänestys tapahtuu 1.12.2017 klo 9 - 8.12.2017 klo 15 välisenä aikana.",
+      "voting_open_hours_are": "Äänestys on avoinna kellon ympäri äänestysaikana.",
       "primary_button_caption": "Kirjaudu sisään",
       "if_cannot_sign_in": "Mikäli et voi käyttää yliopiston käyttäjätunnusta tai sisäänkirjautuminen ei jostain syystä onnistu, ota yhteys LTKYn vaalityöntekijään {{ name }}, {{ email }}, {{ phone }}.",
       "sign_in_is_not_active": "Äänestäminen ei ole tällä hetkellä avoinna.",
@@ -96,7 +96,7 @@
 
         "attention": "Huom!",
         "election_dates_explained":
-          "Äänestys on auki ti 15.12.2015 klo 9:00 - 20:00 ja ke 16.12.2015 klo 9:00 - 17:00 välisenä aikana.",
+          "Äänestys on auki 1.12.2017 klo 9 - 8.12.2017 klo 15 välisenä aikana.",
         "staff_eligibility_note":
           "Vakituiseen henkilökuntaan kuuluvilla ei ole äänioikeutta hallinnon opiskelijaedustajien vaalissa.",
         "private_browsing_note":
@@ -135,7 +135,7 @@
       "page_title": "Omat tiedot",
       "ingress": "Olet kirjautunut sisään seuraavin tiedoin.",
       "you_are_eligible":
-        "Olet vaalikelpoinen oman laitoksesi ja tiedekunnan vaaleissa (Ylioppilaskunnan säännöt hallinnon opiskelijaedustajien vaalista 5 §).",
+        "Olet vaalikelpoinen vaaleissa (Ylioppilaskunnan säännöt hallinnon opiskelijaedustajien vaalista 45-50 §).",
       "in_case_of_problem":
         "Jos tiedoissa on epäselvyyksiä, ota yhteys ylioppilaskuntaan.",
       "voter": {
@@ -151,7 +151,7 @@
       "page_title": "Äänestä",
 
       "error": {
-        "something_went_wrong": "Kävi hassusti",
+        "something_went_wrong": "Jokin hajosi",
         "could_not_load_candidates": "Ehdokastietojen lataaminen epäonnistui.",
         "try_again": "Kirjaudu ulos ja yritä kirjautua uudelleen sisään.",
         "button_caption": "Yritä uudelleen"
@@ -223,7 +223,7 @@
       "ingress":
         "LTKYn edustajistovaaleissa valitaan ylioppilaskunnan ylin päättävä elin, 60-henkinen edustajisto. Äänioikeutettuja ovat LTKYn jäsenet eli noin 27 000 Helsingin yliopiston opiskelijaa.",
       "election_dates_explained":
-        "Äänestyspäivät ovat {{ firstPeriod }} ja {{ secondPeriod }}. Äänestys on avoinna klo {{ range }}."
+        "Äänestys aukeaa 1.11.2017 klo 9 ja päättyy 8.11.2017 klo 15."
     },
 
     "contact": {
