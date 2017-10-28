@@ -222,7 +222,7 @@
     "info": {
       "main_title": "HUS delegationsval",
       "ingress":
-        "I delegationsvalet väljs studentkårens högsta beslutande organ, delegationen, som har 60 medlemmar. Röstberättigade är alla medlemmar i HUS, det vill säga de cirka 27 000 studenterna vid Helsingfors universitet. ",
+        "I delegationsvalet väljs studentkårens högsta beslutande organ, delegationen, som har 27 medlemmar. Röstberättigade är alla medlemmar i HUS, det vill säga de cirka 27 000 studenterna vid Helsingfors universitet. ",
       "election_dates_explained":
         "Valdag är {{ firstPeriod }} och {{ secondPeriod }}. Röstning är öppen kl. {{ range }}."
     },

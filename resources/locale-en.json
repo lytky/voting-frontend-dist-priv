@@ -139,6 +139,7 @@
       "in_case_of_problem":
         "If there is a problem with your information, please contact the Student Union.",
       "voter": {
+        "student_number": "Student number",
         "name": "Name",
         "email": "Email",
         "phone": "Phone",
