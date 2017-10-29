@@ -11,7 +11,7 @@
   "pages": {
     "main": {
       "page_title": "Representative Council Elections",
-      "you_may_check_eligibility": "You can verify your eligibility to vote from electoral list at student unions website <a href='https://ltky.fi/edustajiston-vaalit-2017/?lang=en'>ltky.fi</a>",
+      "you_may_check_eligibility": "You can verify your eligibility to vote from electoral list at Student Unions website <a href='https://ltky.fi/edustajiston-vaalit-2017/?lang=en'>ltky.fi</a>",
       "sign_in_using_university_account": "Sign in using your account of Lappeenranta University of Technology.",
       "eligibility_check": "Eligibility for the elections",
       "voting_opening_hours": "Voting is open between the 1st of November 2017 9.00am and the 8th of November 2017 at 15.00.",
@@ -60,12 +60,12 @@
       "page_title": "Sign Up",
       "attention": "Please note!",
       "voting_days_are": "The voting is open between 9.00 on the 1st of November 2017 and 15.00 on the 8th of November 2017.",
-      "voting_open_hours_are": "Voting is open around the clock on each voting day.",
+      "voting_open_hours_are": "Voting is open around the clock during the voting time.",
       "primary_button_caption": "Sign Up",
       "if_cannot_sign_in": "If you cannot access your university user account or signing up fails for some reason, please contact the Central Electoral Commission {{ name }}, {{ email }}, {{ phone }}.",
       "sign_in_is_not_active": "Voting is not open at the moment.",
       "edari": {
-        "eligibility": "You have a voting right if your name is found in the electoral list and you are a member of the student union. You can sign up to vote by using your Lappeenranta University of Technology  user account.",
+        "eligibility": "You have a voting right if your name is found in the electoral list and you are a member of the Student Union. You can sign up to vote by using your Lappeenranta University of Technology  user account.",
         "late_member_note": ""
       },
       "request_link": {
@@ -152,7 +152,7 @@
       "sign_up_button_caption": "Let's do it!",
       "you_can_vote_in_the_following": "You can vote in the following elections:",
       "choose_election": "Open the election, choose a candidate and press \"vote\".",
-      "submit_vote_help": "Your vote will be registered when you press the \"vote\" button after choosing a candidate.",
+      "submit_vote_help": "Your vote will be registered when you press the \"vote\" button after choosing a candidate. You will asked to press the button again after the first press!",
       "vote_is_immutable": "A cast vote cannot be changed afterwards.",
       "table_header": {
         "election_name": "Election Name",

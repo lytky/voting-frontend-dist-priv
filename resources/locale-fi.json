@@ -154,8 +154,8 @@
       "sign_up_button_caption": "Aloitetaan!",
       "you_can_vote_in_the_following": "Voit äänestää seuraavissa vaaleissa:",
       "choose_election": "Avaa vaali, valitse ehdokas ja paina \"äänestä\".",
-      "submit_vote_help": "Äänesi rekisteröidään, kun painat \"äänestä\"-nappia ehdokkaan valitsemisen jälkeen.",
-      "vote_is_immutable": "Et voi muuttaa antamaasi ääntä jälkikäteen.",
+      "submit_vote_help": "Äänesi rekisteröidään, kun painat \"äänestä\"-nappia ehdokkaan valitsemisen jälkeen. Varmistuksena sinun tulee painaa nappia vielä uudelleen, jotta ääni rekisteröityy!",
+      "vote_is_immutable": "Et voi muuttaa antamaasi ääntä jälkikäteen. Tarkemmat äänestysohjeet löytyvät <a href='https://ltky.fi/edustajiston-vaalit-2017/#1507786899585-9ab33a2e-bdc6'>täältä</a>",
       "table_header": {
         "election_name": "Vaalin nimi",
         "status": "Äänestetty"
