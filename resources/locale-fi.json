@@ -59,15 +59,17 @@
     "sign_up": {
       "page_title": "Kirjaudu sisään",
       "attention": "Huom!",
-      "voting_days_are": "Äänestys tapahtuu 1.12.2017 klo 9 - 8.12.2017 klo 15 välisenä aikana.",
+      "voting_days_are": "Äänestys tapahtuu 1.11.2017 klo 9 - 8.11.2017 klo 15 välisenä aikana.",
       "voting_open_hours_are": "Äänestys on avoinna kellon ympäri äänestysaikana.",
       "primary_button_caption": "Kirjaudu sisään",
       "if_cannot_sign_in": "Mikäli et voi käyttää yliopiston käyttäjätunnusta tai sisäänkirjautuminen ei jostain syystä onnistu, ota yhteys keskusvaalilautakunnan puheenjohtajaan {{ name }}, {{ email }}, {{ phone }} tai LTKYn ylläpitoon yllapito[ at ]ltky.fi.",
       "sign_in_is_not_active": "Äänestäminen ei ole tällä hetkellä avoinna.",
+
       "edari": {
         "eligibility": "Olet äänioikeutettu, kun nimesi löytyy virallisesta vaaliluettelosta ja olet ylioppilaskunnan jäsen. Voit sisäänkirjautua äänestämään Lappeenrannan teknillisen yliopiston käyttäjätunnuksellasi.",
         "late_member_note": ""
       },
+
       "request_link": {
         "ingress": "",
         "password_instructions": "Viime kädessä ota yhteys LTKYn keskuvaalilautakuntaan <a href='mailto:vaalit@ltky.fi'>vaalit[at]ltky.fi</a> tai +358 50 551 6147.",
@@ -77,7 +79,7 @@
         "election_dates_explained": "",
         "staff_eligibility_note": "",
         "private_browsing_note": "",
-        "input_caption_email": "i",
+        "input_caption_email": "",
         "button_caption_submit": "",
         "button_caption_submitting": "Lähetetään ..",
         "link_has_been_sent": "",
@@ -100,7 +102,7 @@
     "profile": {
       "page_title": "Omat tiedot",
       "ingress": "Olet kirjautunut sisään seuraavin tiedoin.",
-      "you_are_eligible": "Olet vaalikelpoinen vaaleissa (Ylioppilaskunnan säännöt hallinnon opiskelijaedustajien vaalista 45-50 §).",
+      "you_are_eligible": "Olet vaalikelpoinen vaaleissa",
       "in_case_of_problem": "Jos tiedoissa on epäselvyyksiä, ota yhteys ylioppilaskuntaan.",
       "voter": {
         "student_number": "Opiskelijanumero",

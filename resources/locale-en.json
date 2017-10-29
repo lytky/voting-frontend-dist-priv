@@ -8,136 +8,100 @@
       "sign_out": "Sign Out"
     }
   },
-
   "pages": {
     "main": {
       "page_title": "Representative Council Elections",
-      "you_may_check_eligibility":
-        "You may check your eligibility for the elections by requesting a sign in link. Link will be sent to the email address you have submitted to the Helsinki University Student Registry by 15.9.2015.",
-      "sign_in_using_university_account":
-        "Sign in using your account of Lappeenranta University of Technology.",
+      "you_may_check_eligibility": "You can verify your eligibility to vote from electoral list at student unions website <a href='https://ltky.fi/edustajiston-vaalit-2017/?lang=en'>ltky.fi</a>",
+      "sign_in_using_university_account": "Sign in using your account of Lappeenranta University of Technology.",
       "eligibility_check": "Eligibility for the elections",
-      "voting_opening_hours": "Voting is open between the 1st of November 2017 9.00am and closes on the 8th of November 2017 at 15.00.",
+      "voting_opening_hours": "Voting is open between the 1st of November 2017 9.00am and the 8th of November 2017 at 15.00.",
       "voting_opens_at": "Voting opens at",
       "voting_has_ended": "Voting has ended.",
       "result_will_be_published_at": "Result will be published at",
       "voting_continues_at": "Voting continues {{ day }} at {{ time }}",
-
       "button_caption_eligibility": "Check Eligibility",
       "button_caption_vote": "Let's Vote!"
     },
-
     "sign_in_error": {
       "no_voting_right": {
         "title": "No Voting Right",
         "lead": "Your student number does not have a right to vote.",
-        "body": "Please contact the election staff in case of an error.",
-        "button_caption": "Return to Frontpage"
+        "body": "Please contact the Central Electoral Commission in case of an error.",
+        "button_caption": "Return to the front page"
       },
-
       "invalid_saml_response": {
         "title": "Sign In Error",
         "lead": "Cooperation with the authentication service failed.",
-        "body": "If the problem persists, please contact the election staff.",
+        "body": "If the problem persists, please contact the Central Electoral Commission.",
         "button_caption": "Try Again"
       },
-
       "general": {
         "title": "Unknown Error",
         "lead": "Something went wrong for an unknown reason.",
-        "body": "If the problem persists, please contact the election staff.",
+        "body": "If the problem persists, please contact the Central Electoral Commission.",
         "button_caption": "Try Again"
       }
-
     },
-
     "sign_in": {
       "loading": "Loading",
-
       "error": {
         "title_invalid_key": "Invalid link",
         "lead": "Your sign in link has expired or voting is closed.",
         "private_browsing_note": "Please check that your browser is not in Private Browsing Mode.",
-        "request_new_link": "Reqeust new link",
-
+        "request_new_link": "Request new link",
         "private_browsing_mode": {
           "title": "You're in Private Browsing Mode",
           "lead": "Your browser has \"Private Browsing Mode\" enabled, which prevents the voting service from functioning.",
           "what_now": "Please open the sign in link in a normal browser window."
         }
-
       }
     },
-
     "sign_up": {
       "page_title": "Sign Up",
       "attention": "Please note!",
-      "voting_days_are": "The voting is open between 9.00 on the 1st of NOvember 2017 and 15.00 on the 8th of November 2017.",
+      "voting_days_are": "The voting is open between 9.00 on the 1st of November 2017 and 15.00 on the 8th of November 2017.",
       "voting_open_hours_are": "Voting is open around the clock on each voting day.",
       "primary_button_caption": "Sign Up",
-      "if_cannot_sign_in": "If you cannot access your university user account or signing up fails for some reason, please contact the election staff {{ name }}, {{ email }}, {{ phone }}.",
+      "if_cannot_sign_in": "If you cannot access your university user account or signing up fails for some reason, please contact the Central Electoral Commission {{ name }}, {{ email }}, {{ phone }}.",
       "sign_in_is_not_active": "Voting is not open at the moment.",
-
       "edari": {
-        "eligibility": "You have a voting right if you have enrolled in and paid the member fee of the Student Union. You can sign up to vote by using your Helsinki University user account.",
-
-        "late_member_note": "If you enrolled in just recently, your student number might not yet be in the list of people with voting rights. In that case you will receive a message after signing in that you don't have a voting right. Your voting right can be created if you proof your payment of the Student Union's member fee at the office of the Student Union."
+        "eligibility": "You have a voting right if your name is found in the electoral list and you are a member of the student union. You can sign up to vote by using your Lappeenranta University of Technology  user account.",
+        "late_member_note": ""
       },
-
       "request_link": {
-        "ingress":
-          "Give the same e-mail address you have in University’s student registry, and we will send you a registration link.",
-       "password_instructions":
-          "Password can be delivered only to the email address that you have in the student registry. You can check which email address you have used on the contact details page in <a href='https://weboodi.helsinki.fi'>WebOodi</a>.",
-        "spam_instructions":
-          "In case you didn't receive the link, please also check your spam folder.",
-        "in_case_of_fire":
-          "If everything else fails, please contact the election staff of the Student Union <a href='mailto:vaalit@ltky.fi'>vaalit@ltky.fi</a> or +358 50 xxx xxxx.",
-
+        "ingress": "",
+        "password_instructions": "If you experience problems, please contact <a href='mailto:vaalit@ltky.fi'>vaalit[at]ltky.fi</a>",
+        "spam_instructions": "",
+        "in_case_of_fire": "If you experience problems, please contact <a href='mailto:vaalit@ltky.fi'>vaalit[at]ltky.fi</a>",
         "attention": "Please Notice:",
-        "election_dates_explained":
-          "The voting is open between 9.00 on the 1st of NOvember 2017 and 15.00 on the 8th of November 2017.",
-        "staff_eligibility_note":
-          "Permanent staff of the university are not eligible to vote student members in the administration elections.",
-        "private_browsing_note":
-          "Ensure that you do not have Private Browsing Mode enabled when you open the sign in link.",
-
-        "input_caption_email": "Email",
-        "button_caption_submit": "Send me the link",
+        "election_dates_explained": "",
+        "staff_eligibility_note": "",
+        "private_browsing_note": "",
+        "input_caption_email": "",
+        "button_caption_submit": "",
         "button_caption_submitting": "Sending ..",
-
-        "link_has_been_sent":
-          "Link for sign in has been sent!",
-        "pls_check_email":
-          "Please follow the instructions in your email and sign in.",
-
+        "link_has_been_sent": "",
+        "pls_check_email": "",
         "something_went_wrong": {
-          "detail": "We were unable to send you the link.",
-          "if_happens_again":
-            "If the problem happens again, please contact the election staff of the Student Union vaalit@ltky.fi +358 50 551 6147.",
-          "pls_explain":
-            "Please let us know the technical error message:"
+          "detail": "",
+          "if_happens_again": "If the problem happens again, please contact the Central Electoral Commission of the Student Union vaalit@ltky.fi +358 50 551 6147.",
+          "pls_explain": "Please let us know the technical error message:"
         },
-
         "errors": {
           "not_eligible_in_any_election": "You are not eligible in any of the current elections.",
           "session_creation_not_permitted": "Voting is closed. You can view the date and time for voting above."
         }
       }
     },
-
     "sign_out": {
       "page_title": "Signed Out",
       "ingress": "You may close the browser window."
     },
-
     "profile": {
       "page_title": "Personal Information",
       "ingress": "You have signed in with the following information.",
-      "you_are_eligible":
-        "You are eligible in the elections (According to the Student union board rules on student representative elections 45-50 §).",
-      "in_case_of_problem":
-        "If there is a problem with your information, please contact the Student Union.",
+      "you_are_eligible": "You are eligible in the elections",
+      "in_case_of_problem": "If there is a problem with your information, please contact the Student Union.",
       "voter": {
         "student_number": "Student number",
         "name": "Name",
@@ -147,17 +111,14 @@
         "department": "Department"
       }
     },
-
     "vote": {
       "page_title": "Vote",
-
       "error": {
         "something_went_wrong": "Something hit the fan",
         "could_not_load_candidates": "Candidates could not be loaded.",
         "try_again": "Sign out and retry to signing in.",
         "button_caption": "Try again"
       },
-
       "vote-ballot": {
         "title": "Vote ballot",
         "header-number": "Number",
@@ -169,14 +130,12 @@
         "button-submit-confirm": "Press again",
         "submitting": "Voting .."
       },
-
       "coalition-index-text": "Coalitions consist of alliances and alliances consist of candidates.",
       "voting-right-already-used": "You have already voted at",
       "vote-has-been-cast": "Your vote is now recorded!",
       "if-you-are-eligible-in-others": "If you are eligible in multiple elections,",
       "choose-next-election": "select next election",
       "close-window-when-finished": "You may close the browser window.",
-
       "search": {
         "title": "Find a candidate",
         "candidate-name": "Candidate name",
@@ -185,49 +144,37 @@
         "browser-search-tip": "You can also use browser's search.",
         "when-no-results": "Alliances, which did not match your search query, are not displayed."
       }
-
     },
-
     "elections": {
       "page_title": "Vote",
       "sign_in": "Sign in First",
       "sign_up_please": "You can vote after you have signed in.",
       "sign_up_button_caption": "Let's do it!",
-
       "you_can_vote_in_the_following": "You can vote in the following elections:",
       "choose_election": "Open the election, choose a candidate and press \"vote\".",
       "submit_vote_help": "Your vote will be registered when you press the \"vote\" button after choosing a candidate.",
       "vote_is_immutable": "A cast vote cannot be changed afterwards.",
-
       "table_header": {
         "election_name": "Election Name",
         "status": "Already voted?"
       },
-
       "not_started": {
         "voting_has_not_started_yet": "Voting has not started yet."
       },
-
       "empty": {
         "no_elections_available": "You are not eligible to vote in any elections."
       }
     }
-
   },
-
   "common": {
     "loading": "Loading"
   },
-
   "partials": {
     "info": {
       "main_title": "LTKY Council Elections",
-      "ingress":
-        "LTKY’s Representative Council elections are conducted to elect 60 members into the council, the highest decision-making body of the Student Union. All LTKY’s members, around 3,000 students at the Lappeenranta University of Technology, have the right to vote in the elections.",
-      "election_dates_explained":
-        "Election opens on the 1st of November 2017 at 9.00 and ends on the 8th of November 2017 at 15.00."
+      "ingress": "LTKY’s Representative Council elections are conducted to elect 27 members into the council, the highest decision-making body of the Student Union. All LTKY’s members, around 4,300 students at the Lappeenranta University of Technology, have the right to vote in the elections.",
+      "election_dates_explained": "Election opens on the 1st of November 2017 at 9.00 and ends on the 8th of November 2017 at 15.00."
     },
-
     "contact": {
       "more_info": "More information",
       "hyy_ae_link_caption": "Student Union's info page",
